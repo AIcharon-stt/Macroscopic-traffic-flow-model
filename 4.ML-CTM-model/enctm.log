@@ -1,0 +1,1722 @@
+2025-03-25 17:19:27,546 - INFO - Initializing Enhanced CTM (EnCTM) traffic flow model
+2025-03-25 17:19:27,546 - INFO - Core parameters: critical_density=27.0, jam_density=180.0, free_flow_speed=110.0, wave_speed=20.0
+2025-03-25 17:19:27,546 - INFO - Advanced parameters: alpha=2.0, beta=0.25, adaptive_cells=True, ml_integration=False, hybrid_prediction=False
+2025-03-25 17:19:27,546 - INFO - Loading road segment data from: ./ETC_data_example/roadETC.csv
+2025-03-25 17:19:27,546 - INFO - Successfully loaded 4 road segments
+2025-03-25 17:19:27,546 - INFO - Loading traffic flow data from directory: ./ETC_data_example/flow
+2025-03-25 17:19:27,666 - INFO - Successfully loaded flow data for 5 gantries
+2025-03-25 17:19:27,666 - INFO - Processing historical traffic patterns...
+2025-03-25 17:19:27,756 - INFO - Historical patterns processed for 5 gantries
+2025-03-25 17:19:27,756 - INFO - Preparing segment information for simulation
+2025-03-25 17:19:27,756 - INFO - Prepared 4 segments for simulation
+2025-03-25 17:19:27,756 - INFO - Initializing prediction horizon parameters
+2025-03-25 17:19:27,756 - INFO - Parameters set for 5, 10, 15, and 30 minute prediction horizons
+2025-03-25 17:19:27,756 - INFO - Enhanced CTM model initialization complete
+2025-03-25 17:19:27,756 - INFO - Starting Enhanced CTM model validation...
+2025-03-25 17:19:27,756 - INFO - Validation for prediction horizons: [5, 10, 15] minutes
+2025-03-25 17:19:27,756 - INFO - Validating segment 1: G001 -> G002
+2025-03-25 17:19:27,756 - INFO - Using random sample of 50 time points for validation
+2025-03-25 17:19:27,756 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:20:03,259 - INFO - Initializing Enhanced CTM (EnCTM) traffic flow model
+2025-03-25 17:20:03,259 - INFO - Core parameters: critical_density=27.0, jam_density=180.0, free_flow_speed=110.0, wave_speed=20.0
+2025-03-25 17:20:03,259 - INFO - Advanced parameters: alpha=2.0, beta=0.25, adaptive_cells=True, ml_integration=True, hybrid_prediction=False
+2025-03-25 17:20:03,259 - INFO - Loading road segment data from: ./ETC_data_example/roadETC.csv
+2025-03-25 17:20:03,259 - INFO - Successfully loaded 4 road segments
+2025-03-25 17:20:03,259 - INFO - Loading traffic flow data from directory: ./ETC_data_example/flow
+2025-03-25 17:20:03,379 - INFO - Successfully loaded flow data for 5 gantries
+2025-03-25 17:20:03,379 - INFO - Processing historical traffic patterns...
+2025-03-25 17:20:03,469 - INFO - Historical patterns processed for 5 gantries
+2025-03-25 17:20:03,469 - INFO - Preparing segment information for simulation
+2025-03-25 17:20:03,469 - INFO - Prepared 4 segments for simulation
+2025-03-25 17:20:03,469 - INFO - Initializing prediction horizon parameters
+2025-03-25 17:20:03,469 - INFO - Parameters set for 5, 10, 15, and 30 minute prediction horizons
+2025-03-25 17:20:06,594 - INFO - TensorFlow available for advanced ML integration
+2025-03-25 17:20:06,594 - INFO - Initializing ML model components
+2025-03-25 17:20:06,594 - INFO - Creating new ML models
+2025-03-25 17:20:06,594 - INFO - Creating new ML model components
+2025-03-25 17:20:06,594 - INFO - ML models created successfully (untrained)
+2025-03-25 17:20:06,594 - INFO - ML model initialization complete
+2025-03-25 17:20:06,594 - INFO - Enhanced CTM model initialization complete
+2025-03-25 17:20:06,594 - INFO - Starting Enhanced CTM model validation...
+2025-03-25 17:20:06,594 - INFO - Validation for prediction horizons: [5, 10, 15] minutes
+2025-03-25 17:20:06,594 - INFO - Validating segment 1: G001 -> G002
+2025-03-25 17:20:06,594 - INFO - Using random sample of 50 time points for validation
+2025-03-25 17:20:06,594 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:20:26,866 - INFO - Initializing Enhanced CTM (EnCTM) traffic flow model
+2025-03-25 17:20:26,866 - INFO - Core parameters: critical_density=27.0, jam_density=180.0, free_flow_speed=110.0, wave_speed=20.0
+2025-03-25 17:20:26,866 - INFO - Advanced parameters: alpha=2.0, beta=0.25, adaptive_cells=True, ml_integration=True, hybrid_prediction=False
+2025-03-25 17:20:26,866 - INFO - Loading road segment data from: ./ETC_data_example/roadETC.csv
+2025-03-25 17:20:26,874 - INFO - Successfully loaded 4 road segments
+2025-03-25 17:20:26,874 - INFO - Loading traffic flow data from directory: ./ETC_data_example/flow
+2025-03-25 17:20:26,994 - INFO - Successfully loaded flow data for 5 gantries
+2025-03-25 17:20:26,994 - INFO - Processing historical traffic patterns...
+2025-03-25 17:20:27,074 - INFO - Historical patterns processed for 5 gantries
+2025-03-25 17:20:27,074 - INFO - Preparing segment information for simulation
+2025-03-25 17:20:27,082 - INFO - Prepared 4 segments for simulation
+2025-03-25 17:20:27,082 - INFO - Initializing prediction horizon parameters
+2025-03-25 17:20:27,082 - INFO - Parameters set for 5, 10, 15, and 30 minute prediction horizons
+2025-03-25 17:20:30,082 - INFO - TensorFlow available for advanced ML integration
+2025-03-25 17:20:30,082 - INFO - Initializing ML model components
+2025-03-25 17:20:30,082 - INFO - Creating new ML models
+2025-03-25 17:20:30,082 - INFO - Creating new ML model components
+2025-03-25 17:20:30,082 - INFO - ML models created successfully (untrained)
+2025-03-25 17:20:30,082 - INFO - ML model initialization complete
+2025-03-25 17:20:30,082 - INFO - Enhanced CTM model initialization complete
+2025-03-25 17:20:30,082 - INFO - Starting Enhanced CTM model validation...
+2025-03-25 17:20:30,082 - INFO - Validation for prediction horizons: [5, 10, 15, 30] minutes
+2025-03-25 17:20:30,082 - INFO - Validating segment 1: G001 -> G002
+2025-03-25 17:20:30,082 - INFO - Using random sample of 50 time points for validation
+2025-03-25 17:20:30,082 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:52,466 - INFO - Initializing Enhanced CTM (EnCTM) traffic flow model
+2025-03-25 17:28:52,466 - INFO - Core parameters: critical_density=27.0, jam_density=180.0, free_flow_speed=110.0, wave_speed=20.0
+2025-03-25 17:28:52,466 - INFO - Advanced parameters: alpha=2.0, beta=0.25, adaptive_cells=True, ml_integration=True, hybrid_prediction=False
+2025-03-25 17:28:52,466 - INFO - Loading road segment data from: ./ETC_data_example/roadETC.csv
+2025-03-25 17:28:52,466 - INFO - Successfully loaded 4 road segments
+2025-03-25 17:28:52,466 - INFO - Loading traffic flow data from directory: ./ETC_data_example/flow
+2025-03-25 17:28:52,586 - INFO - Successfully loaded flow data for 5 gantries
+2025-03-25 17:28:52,586 - INFO - Processing historical traffic patterns...
+2025-03-25 17:28:52,676 - INFO - Historical patterns processed for 5 gantries
+2025-03-25 17:28:52,676 - INFO - Preparing segment information for simulation
+2025-03-25 17:28:52,676 - INFO - Prepared 4 segments for simulation
+2025-03-25 17:28:52,676 - INFO - Initializing prediction horizon parameters
+2025-03-25 17:28:52,676 - INFO - Parameters set for 5, 10, 15, and 30 minute prediction horizons
+2025-03-25 17:28:55,713 - INFO - TensorFlow available for advanced ML integration
+2025-03-25 17:28:55,713 - INFO - Initializing ML model components
+2025-03-25 17:28:55,713 - INFO - Creating new ML models
+2025-03-25 17:28:55,713 - INFO - Creating new ML model components
+2025-03-25 17:28:55,713 - INFO - ML models created successfully (untrained)
+2025-03-25 17:28:55,713 - INFO - ML model initialization complete
+2025-03-25 17:28:55,713 - INFO - Enhanced CTM model initialization complete
+2025-03-25 17:28:55,713 - INFO - Starting Enhanced CTM model validation...
+2025-03-25 17:28:55,713 - INFO - Validation for prediction horizons: [5, 10, 15, 30] minutes
+2025-03-25 17:28:55,713 - INFO - Validating segment 1: G001 -> G002
+2025-03-25 17:28:55,713 - INFO - Using random sample of 50 time points for validation
+2025-03-25 17:28:55,713 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:55,728 - INFO - Prediction complete: total flow 7.81 veh/5min
+2025-03-25 17:28:55,728 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:55,744 - INFO - Prediction complete: total flow 7.18 veh/5min
+2025-03-25 17:28:55,744 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:55,758 - INFO - Prediction complete: total flow 6.51 veh/5min
+2025-03-25 17:28:55,758 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:55,773 - INFO - Prediction complete: total flow 5.84 veh/5min
+2025-03-25 17:28:55,773 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:55,773 - INFO - Prediction complete: total flow 7.79 veh/5min
+2025-03-25 17:28:55,773 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:55,788 - INFO - Prediction complete: total flow 7.12 veh/5min
+2025-03-25 17:28:55,788 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:55,804 - INFO - Prediction complete: total flow 6.44 veh/5min
+2025-03-25 17:28:55,804 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:55,819 - INFO - Prediction complete: total flow 5.97 veh/5min
+2025-03-25 17:28:55,819 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:55,819 - INFO - Prediction complete: total flow 14.82 veh/5min
+2025-03-25 17:28:55,835 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:55,835 - INFO - Prediction complete: total flow 17.21 veh/5min
+2025-03-25 17:28:55,835 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:55,850 - INFO - Prediction complete: total flow 19.59 veh/5min
+2025-03-25 17:28:55,850 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:55,865 - INFO - Prediction complete: total flow 21.98 veh/5min
+2025-03-25 17:28:55,873 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:55,873 - INFO - Prediction complete: total flow 14.31 veh/5min
+2025-03-25 17:28:55,873 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:55,888 - INFO - Prediction complete: total flow 16.62 veh/5min
+2025-03-25 17:28:55,888 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:55,888 - INFO - Prediction complete: total flow 18.93 veh/5min
+2025-03-25 17:28:55,903 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:55,918 - INFO - Prediction complete: total flow 21.25 veh/5min
+2025-03-25 17:28:55,918 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:55,918 - INFO - Prediction complete: total flow 12.36 veh/5min
+2025-03-25 17:28:55,918 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:55,933 - INFO - Prediction complete: total flow 13.82 veh/5min
+2025-03-25 17:28:55,933 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:55,948 - INFO - Prediction complete: total flow 15.29 veh/5min
+2025-03-25 17:28:55,948 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:55,963 - INFO - Prediction complete: total flow 16.75 veh/5min
+2025-03-25 17:28:55,963 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:55,963 - INFO - Prediction complete: total flow 16.44 veh/5min
+2025-03-25 17:28:55,978 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:55,978 - INFO - Prediction complete: total flow 22.55 veh/5min
+2025-03-25 17:28:55,978 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:55,993 - INFO - Prediction complete: total flow 26.26 veh/5min
+2025-03-25 17:28:55,993 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:56,008 - INFO - Prediction complete: total flow 29.97 veh/5min
+2025-03-25 17:28:56,008 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:56,023 - INFO - Prediction complete: total flow 18.35 veh/5min
+2025-03-25 17:28:56,023 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:56,023 - INFO - Prediction complete: total flow 20.94 veh/5min
+2025-03-25 17:28:56,038 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:56,038 - INFO - Prediction complete: total flow 23.53 veh/5min
+2025-03-25 17:28:56,038 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:56,053 - INFO - Prediction complete: total flow 26.13 veh/5min
+2025-03-25 17:28:56,053 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:56,073 - INFO - Prediction complete: total flow 4.82 veh/5min
+2025-03-25 17:28:56,075 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:56,081 - INFO - Prediction complete: total flow 4.54 veh/5min
+2025-03-25 17:28:56,081 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:56,096 - INFO - Prediction complete: total flow 4.26 veh/5min
+2025-03-25 17:28:56,096 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:56,111 - INFO - Prediction complete: total flow 4.17 veh/5min
+2025-03-25 17:28:56,111 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:56,111 - INFO - Prediction complete: total flow 5.55 veh/5min
+2025-03-25 17:28:56,111 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:56,126 - INFO - Prediction complete: total flow 5.63 veh/5min
+2025-03-25 17:28:56,126 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:56,141 - INFO - Prediction complete: total flow 5.70 veh/5min
+2025-03-25 17:28:56,141 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:56,155 - INFO - Prediction complete: total flow 5.77 veh/5min
+2025-03-25 17:28:56,155 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:56,155 - INFO - Prediction complete: total flow 10.23 veh/5min
+2025-03-25 17:28:56,170 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:56,170 - INFO - Prediction complete: total flow 11.11 veh/5min
+2025-03-25 17:28:56,170 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:56,185 - INFO - Prediction complete: total flow 11.98 veh/5min
+2025-03-25 17:28:56,185 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:56,200 - INFO - Prediction complete: total flow 12.86 veh/5min
+2025-03-25 17:28:56,200 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:56,215 - INFO - Prediction complete: total flow 9.29 veh/5min
+2025-03-25 17:28:56,215 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:56,215 - INFO - Prediction complete: total flow 9.23 veh/5min
+2025-03-25 17:28:56,230 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:56,230 - INFO - Prediction complete: total flow 9.17 veh/5min
+2025-03-25 17:28:56,230 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:56,256 - INFO - Prediction complete: total flow 9.11 veh/5min
+2025-03-25 17:28:56,256 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:56,256 - INFO - Prediction complete: total flow 7.88 veh/5min
+2025-03-25 17:28:56,256 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:56,271 - INFO - Prediction complete: total flow 7.46 veh/5min
+2025-03-25 17:28:56,271 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:56,286 - INFO - Prediction complete: total flow 6.87 veh/5min
+2025-03-25 17:28:56,286 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:56,301 - INFO - Prediction complete: total flow 6.28 veh/5min
+2025-03-25 17:28:56,301 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:56,301 - INFO - Prediction complete: total flow 8.49 veh/5min
+2025-03-25 17:28:56,316 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:56,316 - INFO - Prediction complete: total flow 8.31 veh/5min
+2025-03-25 17:28:56,316 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:56,334 - INFO - Prediction complete: total flow 8.14 veh/5min
+2025-03-25 17:28:56,334 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:56,349 - INFO - Prediction complete: total flow 7.96 veh/5min
+2025-03-25 17:28:56,349 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:56,349 - INFO - Prediction complete: total flow 7.94 veh/5min
+2025-03-25 17:28:56,349 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:56,364 - INFO - Prediction complete: total flow 7.30 veh/5min
+2025-03-25 17:28:56,364 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:56,379 - INFO - Prediction complete: total flow 6.21 veh/5min
+2025-03-25 17:28:56,379 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:56,394 - INFO - Prediction complete: total flow 5.48 veh/5min
+2025-03-25 17:28:56,394 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:56,394 - INFO - Prediction complete: total flow 6.50 veh/5min
+2025-03-25 17:28:56,409 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:56,409 - INFO - Prediction complete: total flow 6.85 veh/5min
+2025-03-25 17:28:56,409 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:56,424 - INFO - Prediction complete: total flow 7.20 veh/5min
+2025-03-25 17:28:56,424 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:56,439 - INFO - Prediction complete: total flow 10.78 veh/5min
+2025-03-25 17:28:56,439 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:56,454 - INFO - Prediction complete: total flow 6.94 veh/5min
+2025-03-25 17:28:56,454 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:56,454 - INFO - Prediction complete: total flow 6.89 veh/5min
+2025-03-25 17:28:56,470 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:56,474 - INFO - Prediction complete: total flow 6.83 veh/5min
+2025-03-25 17:28:56,474 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:56,489 - INFO - Prediction complete: total flow 10.71 veh/5min
+2025-03-25 17:28:56,489 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:56,504 - INFO - Prediction complete: total flow 5.34 veh/5min
+2025-03-25 17:28:56,504 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:56,504 - INFO - Prediction complete: total flow 5.39 veh/5min
+2025-03-25 17:28:56,519 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:56,519 - INFO - Prediction complete: total flow 5.44 veh/5min
+2025-03-25 17:28:56,519 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:56,534 - INFO - Prediction complete: total flow 5.49 veh/5min
+2025-03-25 17:28:56,534 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:56,549 - INFO - Prediction complete: total flow 18.98 veh/5min
+2025-03-25 17:28:56,549 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:56,549 - INFO - Prediction complete: total flow 21.78 veh/5min
+2025-03-25 17:28:56,564 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:56,564 - INFO - Prediction complete: total flow 24.58 veh/5min
+2025-03-25 17:28:56,564 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:56,579 - INFO - Prediction complete: total flow 27.38 veh/5min
+2025-03-25 17:28:56,579 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:56,594 - INFO - Prediction complete: total flow 20.92 veh/5min
+2025-03-25 17:28:56,594 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:56,610 - INFO - Prediction complete: total flow 22.96 veh/5min
+2025-03-25 17:28:56,612 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:56,612 - INFO - Prediction complete: total flow 24.99 veh/5min
+2025-03-25 17:28:56,612 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:56,627 - INFO - Prediction complete: total flow 27.02 veh/5min
+2025-03-25 17:28:56,642 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:56,642 - INFO - Prediction complete: total flow 15.01 veh/5min
+2025-03-25 17:28:56,642 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:56,657 - INFO - Prediction complete: total flow 16.54 veh/5min
+2025-03-25 17:28:56,657 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:56,672 - INFO - Prediction complete: total flow 18.08 veh/5min
+2025-03-25 17:28:56,672 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:56,687 - INFO - Prediction complete: total flow 24.04 veh/5min
+2025-03-25 17:28:56,687 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:56,702 - INFO - Prediction complete: total flow 8.03 veh/5min
+2025-03-25 17:28:56,702 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:56,702 - INFO - Prediction complete: total flow 7.39 veh/5min
+2025-03-25 17:28:56,702 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:56,717 - INFO - Prediction complete: total flow 6.76 veh/5min
+2025-03-25 17:28:56,717 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:56,742 - INFO - Prediction complete: total flow 6.12 veh/5min
+2025-03-25 17:28:56,742 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:56,742 - INFO - Prediction complete: total flow 7.36 veh/5min
+2025-03-25 17:28:56,742 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:56,757 - INFO - Prediction complete: total flow 7.18 veh/5min
+2025-03-25 17:28:56,757 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:56,772 - INFO - Prediction complete: total flow 8.44 veh/5min
+2025-03-25 17:28:56,772 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:56,787 - INFO - Prediction complete: total flow 8.54 veh/5min
+2025-03-25 17:28:56,787 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:56,787 - INFO - Prediction complete: total flow 7.81 veh/5min
+2025-03-25 17:28:56,787 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:56,802 - INFO - Prediction complete: total flow 7.29 veh/5min
+2025-03-25 17:28:56,802 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:56,817 - INFO - Prediction complete: total flow 6.78 veh/5min
+2025-03-25 17:28:56,817 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:56,832 - INFO - Prediction complete: total flow 6.26 veh/5min
+2025-03-25 17:28:56,832 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:56,832 - INFO - Prediction complete: total flow 9.91 veh/5min
+2025-03-25 17:28:56,847 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:56,847 - INFO - Prediction complete: total flow 10.55 veh/5min
+2025-03-25 17:28:56,847 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:56,862 - INFO - Prediction complete: total flow 11.18 veh/5min
+2025-03-25 17:28:56,862 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:56,877 - INFO - Prediction complete: total flow 11.81 veh/5min
+2025-03-25 17:28:56,877 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:56,892 - INFO - Prediction complete: total flow 6.53 veh/5min
+2025-03-25 17:28:56,892 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:56,892 - INFO - Prediction complete: total flow 6.48 veh/5min
+2025-03-25 17:28:56,892 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:56,907 - INFO - Prediction complete: total flow 6.43 veh/5min
+2025-03-25 17:28:56,907 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:56,922 - INFO - Prediction complete: total flow 6.38 veh/5min
+2025-03-25 17:28:56,922 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:56,937 - INFO - Prediction complete: total flow 5.45 veh/5min
+2025-03-25 17:28:56,937 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:56,952 - INFO - Prediction complete: total flow 5.04 veh/5min
+2025-03-25 17:28:56,952 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:56,964 - INFO - Prediction complete: total flow 4.62 veh/5min
+2025-03-25 17:28:56,965 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:56,968 - INFO - Prediction complete: total flow 4.21 veh/5min
+2025-03-25 17:28:56,968 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:56,983 - INFO - Prediction complete: total flow 22.29 veh/5min
+2025-03-25 17:28:56,983 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:56,999 - INFO - Prediction complete: total flow 25.48 veh/5min
+2025-03-25 17:28:56,999 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:56,999 - INFO - Prediction complete: total flow 28.66 veh/5min
+2025-03-25 17:28:57,013 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:57,013 - INFO - Prediction complete: total flow 31.84 veh/5min
+2025-03-25 17:28:57,028 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:57,028 - INFO - Prediction complete: total flow 8.32 veh/5min
+2025-03-25 17:28:57,028 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:57,047 - INFO - Prediction complete: total flow 8.30 veh/5min
+2025-03-25 17:28:57,049 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:57,055 - INFO - Prediction complete: total flow 8.27 veh/5min
+2025-03-25 17:28:57,055 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:57,071 - INFO - Prediction complete: total flow 7.35 veh/5min
+2025-03-25 17:28:57,071 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:57,086 - INFO - Prediction complete: total flow 7.38 veh/5min
+2025-03-25 17:28:57,086 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:57,086 - INFO - Prediction complete: total flow 7.21 veh/5min
+2025-03-25 17:28:57,101 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:57,101 - INFO - Prediction complete: total flow 7.03 veh/5min
+2025-03-25 17:28:57,101 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:57,116 - INFO - Prediction complete: total flow 6.86 veh/5min
+2025-03-25 17:28:57,116 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:57,131 - INFO - Prediction complete: total flow 17.24 veh/5min
+2025-03-25 17:28:57,131 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:57,146 - INFO - Prediction complete: total flow 18.46 veh/5min
+2025-03-25 17:28:57,146 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:57,146 - INFO - Prediction complete: total flow 19.68 veh/5min
+2025-03-25 17:28:57,161 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:57,176 - INFO - Prediction complete: total flow 25.32 veh/5min
+2025-03-25 17:28:57,176 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:57,176 - INFO - Prediction complete: total flow 4.64 veh/5min
+2025-03-25 17:28:57,176 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:57,196 - INFO - Prediction complete: total flow 4.87 veh/5min
+2025-03-25 17:28:57,198 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:57,198 - INFO - Prediction complete: total flow 5.09 veh/5min
+2025-03-25 17:28:57,198 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:57,213 - INFO - Prediction complete: total flow 5.31 veh/5min
+2025-03-25 17:28:57,213 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:57,228 - INFO - Prediction complete: total flow 8.19 veh/5min
+2025-03-25 17:28:57,228 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:57,243 - INFO - Prediction complete: total flow 7.65 veh/5min
+2025-03-25 17:28:57,243 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:57,243 - INFO - Prediction complete: total flow 6.96 veh/5min
+2025-03-25 17:28:57,258 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:57,258 - INFO - Prediction complete: total flow 6.38 veh/5min
+2025-03-25 17:28:57,273 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:57,273 - INFO - Prediction complete: total flow 7.76 veh/5min
+2025-03-25 17:28:57,273 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:57,288 - INFO - Prediction complete: total flow 7.07 veh/5min
+2025-03-25 17:28:57,288 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:57,303 - INFO - Prediction complete: total flow 6.38 veh/5min
+2025-03-25 17:28:57,303 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:57,318 - INFO - Prediction complete: total flow 5.68 veh/5min
+2025-03-25 17:28:57,325 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:57,326 - INFO - Prediction complete: total flow 7.31 veh/5min
+2025-03-25 17:28:57,326 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:57,341 - INFO - Prediction complete: total flow 7.69 veh/5min
+2025-03-25 17:28:57,341 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:57,356 - INFO - Prediction complete: total flow 8.07 veh/5min
+2025-03-25 17:28:57,356 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:57,371 - INFO - Prediction complete: total flow 8.45 veh/5min
+2025-03-25 17:28:57,383 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:57,388 - INFO - Prediction complete: total flow 15.38 veh/5min
+2025-03-25 17:28:57,388 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:57,388 - INFO - Prediction complete: total flow 17.61 veh/5min
+2025-03-25 17:28:57,403 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:57,403 - INFO - Prediction complete: total flow 19.85 veh/5min
+2025-03-25 17:28:57,418 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:57,433 - INFO - Prediction complete: total flow 22.08 veh/5min
+2025-03-25 17:28:57,433 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:57,433 - INFO - Prediction complete: total flow 6.44 veh/5min
+2025-03-25 17:28:57,433 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:57,448 - INFO - Prediction complete: total flow 6.18 veh/5min
+2025-03-25 17:28:57,448 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:57,463 - INFO - Prediction complete: total flow 5.91 veh/5min
+2025-03-25 17:28:57,463 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:57,478 - INFO - Prediction complete: total flow 6.82 veh/5min
+2025-03-25 17:28:57,478 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:57,478 - INFO - Prediction complete: total flow 47.18 veh/5min
+2025-03-25 17:28:57,493 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:57,493 - INFO - Prediction complete: total flow 53.06 veh/5min
+2025-03-25 17:28:57,493 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:57,508 - INFO - Prediction complete: total flow 58.95 veh/5min
+2025-03-25 17:28:57,508 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:57,523 - INFO - Prediction complete: total flow 64.83 veh/5min
+2025-03-25 17:28:57,523 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:57,538 - INFO - Prediction complete: total flow 4.78 veh/5min
+2025-03-25 17:28:57,538 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:57,538 - INFO - Prediction complete: total flow 4.59 veh/5min
+2025-03-25 17:28:57,553 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:57,553 - INFO - Prediction complete: total flow 4.41 veh/5min
+2025-03-25 17:28:57,553 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:57,577 - INFO - Prediction complete: total flow 4.22 veh/5min
+2025-03-25 17:28:57,577 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:57,592 - INFO - Prediction complete: total flow 7.96 veh/5min
+2025-03-25 17:28:57,592 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:57,592 - INFO - Prediction complete: total flow 7.98 veh/5min
+2025-03-25 17:28:57,607 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:57,607 - INFO - Prediction complete: total flow 8.00 veh/5min
+2025-03-25 17:28:57,607 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:57,622 - INFO - Prediction complete: total flow 8.03 veh/5min
+2025-03-25 17:28:57,622 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:57,637 - INFO - Prediction complete: total flow 11.04 veh/5min
+2025-03-25 17:28:57,637 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:57,652 - INFO - Prediction complete: total flow 12.69 veh/5min
+2025-03-25 17:28:57,652 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:57,667 - INFO - Prediction complete: total flow 8.90 veh/5min
+2025-03-25 17:28:57,668 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:57,683 - INFO - Prediction complete: total flow 9.46 veh/5min
+2025-03-25 17:28:57,683 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:57,683 - INFO - Prediction complete: total flow 22.03 veh/5min
+2025-03-25 17:28:57,683 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:57,698 - INFO - Prediction complete: total flow 24.51 veh/5min
+2025-03-25 17:28:57,698 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:57,713 - INFO - Prediction complete: total flow 25.21 veh/5min
+2025-03-25 17:28:57,713 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:57,728 - INFO - Prediction complete: total flow 27.34 veh/5min
+2025-03-25 17:28:57,728 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:57,728 - INFO - Prediction complete: total flow 5.36 veh/5min
+2025-03-25 17:28:57,743 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:57,743 - INFO - Prediction complete: total flow 5.18 veh/5min
+2025-03-25 17:28:57,743 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:57,758 - INFO - Prediction complete: total flow 5.00 veh/5min
+2025-03-25 17:28:57,758 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:57,773 - INFO - Prediction complete: total flow 4.82 veh/5min
+2025-03-25 17:28:57,773 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:57,773 - INFO - Prediction complete: total flow 39.35 veh/5min
+2025-03-25 17:28:57,788 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:57,788 - INFO - Prediction complete: total flow 41.54 veh/5min
+2025-03-25 17:28:57,788 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:57,808 - INFO - Prediction complete: total flow 43.74 veh/5min
+2025-03-25 17:28:57,808 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:57,823 - INFO - Prediction complete: total flow 45.93 veh/5min
+2025-03-25 17:28:57,823 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:57,823 - INFO - Prediction complete: total flow 5.22 veh/5min
+2025-03-25 17:28:57,838 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:57,838 - INFO - Prediction complete: total flow 4.97 veh/5min
+2025-03-25 17:28:57,838 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:57,853 - INFO - Prediction complete: total flow 4.72 veh/5min
+2025-03-25 17:28:57,853 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:57,868 - INFO - Prediction complete: total flow 4.47 veh/5min
+2025-03-25 17:28:57,883 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:57,883 - INFO - Prediction complete: total flow 15.44 veh/5min
+2025-03-25 17:28:57,883 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:57,898 - INFO - Prediction complete: total flow 17.58 veh/5min
+2025-03-25 17:28:57,898 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:57,913 - INFO - Prediction complete: total flow 23.77 veh/5min
+2025-03-25 17:28:57,913 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:57,928 - INFO - Prediction complete: total flow 26.71 veh/5min
+2025-03-25 17:28:57,928 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:57,928 - INFO - Prediction complete: total flow 16.00 veh/5min
+2025-03-25 17:28:57,928 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:57,943 - INFO - Prediction complete: total flow 18.06 veh/5min
+2025-03-25 17:28:57,943 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:57,958 - INFO - Prediction complete: total flow 20.11 veh/5min
+2025-03-25 17:28:57,958 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:57,973 - INFO - Prediction complete: total flow 27.03 veh/5min
+2025-03-25 17:28:57,973 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:57,988 - INFO - Prediction complete: total flow 8.15 veh/5min
+2025-03-25 17:28:57,988 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:57,988 - INFO - Prediction complete: total flow 7.85 veh/5min
+2025-03-25 17:28:58,003 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:58,003 - INFO - Prediction complete: total flow 7.55 veh/5min
+2025-03-25 17:28:58,003 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:58,018 - INFO - Prediction complete: total flow 7.25 veh/5min
+2025-03-25 17:28:58,033 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:58,038 - INFO - Prediction complete: total flow 18.47 veh/5min
+2025-03-25 17:28:58,038 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:58,038 - INFO - Prediction complete: total flow 22.23 veh/5min
+2025-03-25 17:28:58,053 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:58,053 - INFO - Prediction complete: total flow 25.99 veh/5min
+2025-03-25 17:28:58,053 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:58,068 - INFO - Prediction complete: total flow 29.74 veh/5min
+2025-03-25 17:28:58,083 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:58,083 - INFO - Prediction complete: total flow 30.05 veh/5min
+2025-03-25 17:28:58,083 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:58,098 - INFO - Prediction complete: total flow 35.69 veh/5min
+2025-03-25 17:28:58,098 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:58,106 - INFO - Prediction complete: total flow 41.34 veh/5min
+2025-03-25 17:28:58,106 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:58,121 - INFO - Prediction complete: total flow 46.98 veh/5min
+2025-03-25 17:28:58,121 - INFO - Predicting flow for segment 1: G001 -> G002, t+5min
+2025-03-25 17:28:58,136 - INFO - Prediction complete: total flow 16.97 veh/5min
+2025-03-25 17:28:58,136 - INFO - Predicting flow for segment 1: G001 -> G002, t+10min
+2025-03-25 17:28:58,136 - INFO - Prediction complete: total flow 19.59 veh/5min
+2025-03-25 17:28:58,136 - INFO - Predicting flow for segment 1: G001 -> G002, t+15min
+2025-03-25 17:28:58,151 - INFO - Prediction complete: total flow 22.21 veh/5min
+2025-03-25 17:28:58,151 - INFO - Predicting flow for segment 1: G001 -> G002, t+30min
+2025-03-25 17:28:58,166 - INFO - Prediction complete: total flow 24.84 veh/5min
+2025-03-25 17:28:58,166 - INFO - Validating segment 2: G002 -> G003
+2025-03-25 17:28:58,166 - INFO - Using random sample of 50 time points for validation
+2025-03-25 17:28:58,166 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:28:58,181 - INFO - Prediction complete: total flow 5.67 veh/5min
+2025-03-25 17:28:58,181 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:28:58,197 - INFO - Prediction complete: total flow 5.35 veh/5min
+2025-03-25 17:28:58,197 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:28:58,197 - INFO - Prediction complete: total flow 5.03 veh/5min
+2025-03-25 17:28:58,212 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:28:58,227 - INFO - Prediction complete: total flow 4.71 veh/5min
+2025-03-25 17:28:58,227 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:28:58,227 - INFO - Prediction complete: total flow 6.57 veh/5min
+2025-03-25 17:28:58,227 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:28:58,242 - INFO - Prediction complete: total flow 6.52 veh/5min
+2025-03-25 17:28:58,242 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:28:58,257 - INFO - Prediction complete: total flow 6.47 veh/5min
+2025-03-25 17:28:58,257 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:28:58,272 - INFO - Prediction complete: total flow 8.80 veh/5min
+2025-03-25 17:28:58,272 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:28:58,272 - INFO - Prediction complete: total flow 23.75 veh/5min
+2025-03-25 17:28:58,287 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:28:58,287 - INFO - Prediction complete: total flow 26.08 veh/5min
+2025-03-25 17:28:58,287 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:28:58,302 - INFO - Prediction complete: total flow 28.40 veh/5min
+2025-03-25 17:28:58,302 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:28:58,317 - INFO - Prediction complete: total flow 30.72 veh/5min
+2025-03-25 17:28:58,317 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:28:58,332 - INFO - Prediction complete: total flow 35.12 veh/5min
+2025-03-25 17:28:58,335 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:28:58,335 - INFO - Prediction complete: total flow 41.19 veh/5min
+2025-03-25 17:28:58,335 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:28:58,350 - INFO - Prediction complete: total flow 47.26 veh/5min
+2025-03-25 17:28:58,350 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:28:58,365 - INFO - Prediction complete: total flow 53.33 veh/5min
+2025-03-25 17:28:58,365 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:28:58,365 - INFO - Prediction complete: total flow 25.84 veh/5min
+2025-03-25 17:28:58,380 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:28:58,380 - INFO - Prediction complete: total flow 28.27 veh/5min
+2025-03-25 17:28:58,380 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:28:58,395 - INFO - Prediction complete: total flow 30.69 veh/5min
+2025-03-25 17:28:58,395 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:28:58,410 - INFO - Prediction complete: total flow 33.11 veh/5min
+2025-03-25 17:28:58,410 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:28:58,425 - INFO - Prediction complete: total flow 35.32 veh/5min
+2025-03-25 17:28:58,425 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:28:58,425 - INFO - Prediction complete: total flow 40.13 veh/5min
+2025-03-25 17:28:58,440 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:28:58,440 - INFO - Prediction complete: total flow 44.93 veh/5min
+2025-03-25 17:28:58,440 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:28:58,455 - INFO - Prediction complete: total flow 49.74 veh/5min
+2025-03-25 17:28:58,455 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:28:58,474 - INFO - Prediction complete: total flow 6.17 veh/5min
+2025-03-25 17:28:58,474 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:28:58,474 - INFO - Prediction complete: total flow 5.96 veh/5min
+2025-03-25 17:28:58,490 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:28:58,490 - INFO - Prediction complete: total flow 4.87 veh/5min
+2025-03-25 17:28:58,490 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:28:58,505 - INFO - Prediction complete: total flow 4.48 veh/5min
+2025-03-25 17:28:58,505 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:28:58,520 - INFO - Prediction complete: total flow 5.13 veh/5min
+2025-03-25 17:28:58,520 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:28:58,535 - INFO - Prediction complete: total flow 4.94 veh/5min
+2025-03-25 17:28:58,535 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:28:58,535 - INFO - Prediction complete: total flow 4.74 veh/5min
+2025-03-25 17:28:58,550 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:28:58,550 - INFO - Prediction complete: total flow 4.81 veh/5min
+2025-03-25 17:28:58,565 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:28:58,565 - INFO - Prediction complete: total flow 5.03 veh/5min
+2025-03-25 17:28:58,565 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:28:58,580 - INFO - Prediction complete: total flow 4.81 veh/5min
+2025-03-25 17:28:58,580 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:28:58,595 - INFO - Prediction complete: total flow 4.58 veh/5min
+2025-03-25 17:28:58,595 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:28:58,610 - INFO - Prediction complete: total flow 4.73 veh/5min
+2025-03-25 17:28:58,610 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:28:58,610 - INFO - Prediction complete: total flow 12.62 veh/5min
+2025-03-25 17:28:58,610 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:28:58,625 - INFO - Prediction complete: total flow 13.69 veh/5min
+2025-03-25 17:28:58,625 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:28:58,640 - INFO - Prediction complete: total flow 14.76 veh/5min
+2025-03-25 17:28:58,640 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:28:58,656 - INFO - Prediction complete: total flow 20.54 veh/5min
+2025-03-25 17:28:58,656 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:28:58,671 - INFO - Prediction complete: total flow 10.81 veh/5min
+2025-03-25 17:28:58,671 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:28:58,671 - INFO - Prediction complete: total flow 11.62 veh/5min
+2025-03-25 17:28:58,671 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:28:58,686 - INFO - Prediction complete: total flow 12.43 veh/5min
+2025-03-25 17:28:58,686 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:28:58,701 - INFO - Prediction complete: total flow 13.23 veh/5min
+2025-03-25 17:28:58,701 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:28:58,716 - INFO - Prediction complete: total flow 26.14 veh/5min
+2025-03-25 17:28:58,716 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:28:58,716 - INFO - Prediction complete: total flow 27.26 veh/5min
+2025-03-25 17:28:58,731 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:28:58,731 - INFO - Prediction complete: total flow 30.21 veh/5min
+2025-03-25 17:28:58,731 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:28:58,746 - INFO - Prediction complete: total flow 31.70 veh/5min
+2025-03-25 17:28:58,746 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:28:58,761 - INFO - Prediction complete: total flow 40.43 veh/5min
+2025-03-25 17:28:58,761 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:28:58,776 - INFO - Prediction complete: total flow 44.51 veh/5min
+2025-03-25 17:28:58,776 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:28:58,776 - INFO - Prediction complete: total flow 48.58 veh/5min
+2025-03-25 17:28:58,776 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:28:58,791 - INFO - Prediction complete: total flow 52.66 veh/5min
+2025-03-25 17:28:58,806 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:28:58,806 - INFO - Prediction complete: total flow 40.75 veh/5min
+2025-03-25 17:28:58,806 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:28:58,821 - INFO - Prediction complete: total flow 44.38 veh/5min
+2025-03-25 17:28:58,821 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:28:58,833 - INFO - Prediction complete: total flow 48.01 veh/5min
+2025-03-25 17:28:58,833 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:28:58,848 - INFO - Prediction complete: total flow 55.95 veh/5min
+2025-03-25 17:28:58,848 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:28:58,848 - INFO - Prediction complete: total flow 7.94 veh/5min
+2025-03-25 17:28:58,863 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:28:58,863 - INFO - Prediction complete: total flow 7.88 veh/5min
+2025-03-25 17:28:58,863 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:28:58,878 - INFO - Prediction complete: total flow 7.82 veh/5min
+2025-03-25 17:28:58,878 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:28:58,893 - INFO - Prediction complete: total flow 7.76 veh/5min
+2025-03-25 17:28:58,893 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:28:58,908 - INFO - Prediction complete: total flow 32.48 veh/5min
+2025-03-25 17:28:58,908 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:28:58,908 - INFO - Prediction complete: total flow 35.23 veh/5min
+2025-03-25 17:28:58,923 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:28:58,923 - INFO - Prediction complete: total flow 37.99 veh/5min
+2025-03-25 17:28:58,923 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:28:58,938 - INFO - Prediction complete: total flow 40.74 veh/5min
+2025-03-25 17:28:58,938 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:28:58,953 - INFO - Prediction complete: total flow 17.38 veh/5min
+2025-03-25 17:28:58,953 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:28:58,968 - INFO - Prediction complete: total flow 20.61 veh/5min
+2025-03-25 17:28:58,968 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:28:58,968 - INFO - Prediction complete: total flow 23.85 veh/5min
+2025-03-25 17:28:58,983 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:28:58,983 - INFO - Prediction complete: total flow 27.08 veh/5min
+2025-03-25 17:28:58,998 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:28:59,006 - INFO - Prediction complete: total flow 5.13 veh/5min
+2025-03-25 17:28:59,008 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:28:59,010 - INFO - Prediction complete: total flow 4.96 veh/5min
+2025-03-25 17:28:59,010 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:28:59,025 - INFO - Prediction complete: total flow 4.79 veh/5min
+2025-03-25 17:28:59,025 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:28:59,041 - INFO - Prediction complete: total flow 4.61 veh/5min
+2025-03-25 17:28:59,041 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:28:59,041 - INFO - Prediction complete: total flow 8.99 veh/5min
+2025-03-25 17:28:59,056 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:28:59,056 - INFO - Prediction complete: total flow 9.29 veh/5min
+2025-03-25 17:28:59,071 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:28:59,071 - INFO - Prediction complete: total flow 9.59 veh/5min
+2025-03-25 17:28:59,089 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:28:59,091 - INFO - Prediction complete: total flow 9.89 veh/5min
+2025-03-25 17:28:59,091 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:28:59,106 - INFO - Prediction complete: total flow 50.85 veh/5min
+2025-03-25 17:28:59,106 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:28:59,121 - INFO - Prediction complete: total flow 52.73 veh/5min
+2025-03-25 17:28:59,121 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:28:59,121 - INFO - Prediction complete: total flow 54.61 veh/5min
+2025-03-25 17:28:59,136 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:28:59,151 - INFO - Prediction complete: total flow 56.50 veh/5min
+2025-03-25 17:28:59,151 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:28:59,151 - INFO - Prediction complete: total flow 20.32 veh/5min
+2025-03-25 17:28:59,151 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:28:59,166 - INFO - Prediction complete: total flow 23.82 veh/5min
+2025-03-25 17:28:59,166 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:28:59,181 - INFO - Prediction complete: total flow 38.00 veh/5min
+2025-03-25 17:28:59,181 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:28:59,196 - INFO - Prediction complete: total flow 43.63 veh/5min
+2025-03-25 17:28:59,196 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:28:59,196 - INFO - Prediction complete: total flow 21.31 veh/5min
+2025-03-25 17:28:59,211 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:28:59,211 - INFO - Prediction complete: total flow 23.92 veh/5min
+2025-03-25 17:28:59,211 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:28:59,232 - INFO - Prediction complete: total flow 26.52 veh/5min
+2025-03-25 17:28:59,234 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:28:59,234 - INFO - Prediction complete: total flow 28.55 veh/5min
+2025-03-25 17:28:59,249 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:28:59,249 - INFO - Prediction complete: total flow 17.45 veh/5min
+2025-03-25 17:28:59,249 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:28:59,264 - INFO - Prediction complete: total flow 20.47 veh/5min
+2025-03-25 17:28:59,264 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:28:59,279 - INFO - Prediction complete: total flow 23.49 veh/5min
+2025-03-25 17:28:59,279 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:28:59,294 - INFO - Prediction complete: total flow 26.51 veh/5min
+2025-03-25 17:28:59,294 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:28:59,294 - INFO - Prediction complete: total flow 16.86 veh/5min
+2025-03-25 17:28:59,294 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:28:59,314 - INFO - Prediction complete: total flow 19.67 veh/5min
+2025-03-25 17:28:59,314 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:28:59,314 - INFO - Prediction complete: total flow 22.48 veh/5min
+2025-03-25 17:28:59,329 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:28:59,344 - INFO - Prediction complete: total flow 25.28 veh/5min
+2025-03-25 17:28:59,344 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:28:59,344 - INFO - Prediction complete: total flow 19.61 veh/5min
+2025-03-25 17:28:59,344 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:28:59,359 - INFO - Prediction complete: total flow 23.05 veh/5min
+2025-03-25 17:28:59,359 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:28:59,375 - INFO - Prediction complete: total flow 26.49 veh/5min
+2025-03-25 17:28:59,375 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:28:59,389 - INFO - Prediction complete: total flow 29.93 veh/5min
+2025-03-25 17:28:59,389 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:28:59,404 - INFO - Prediction complete: total flow 13.63 veh/5min
+2025-03-25 17:28:59,404 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:28:59,404 - INFO - Prediction complete: total flow 14.63 veh/5min
+2025-03-25 17:28:59,419 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:28:59,419 - INFO - Prediction complete: total flow 15.64 veh/5min
+2025-03-25 17:28:59,419 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:28:59,434 - INFO - Prediction complete: total flow 16.64 veh/5min
+2025-03-25 17:28:59,449 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:28:59,456 - INFO - Prediction complete: total flow 15.33 veh/5min
+2025-03-25 17:28:59,457 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:28:59,457 - INFO - Prediction complete: total flow 17.64 veh/5min
+2025-03-25 17:28:59,457 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:28:59,472 - INFO - Prediction complete: total flow 19.96 veh/5min
+2025-03-25 17:28:59,472 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:28:59,487 - INFO - Prediction complete: total flow 22.28 veh/5min
+2025-03-25 17:28:59,487 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:28:59,502 - INFO - Prediction complete: total flow 18.51 veh/5min
+2025-03-25 17:28:59,502 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:28:59,502 - INFO - Prediction complete: total flow 21.69 veh/5min
+2025-03-25 17:28:59,517 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:28:59,517 - INFO - Prediction complete: total flow 24.88 veh/5min
+2025-03-25 17:28:59,517 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:28:59,532 - INFO - Prediction complete: total flow 28.06 veh/5min
+2025-03-25 17:28:59,532 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:28:59,547 - INFO - Prediction complete: total flow 4.65 veh/5min
+2025-03-25 17:28:59,547 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:28:59,562 - INFO - Prediction complete: total flow 4.54 veh/5min
+2025-03-25 17:28:59,562 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:28:59,562 - INFO - Prediction complete: total flow 4.44 veh/5min
+2025-03-25 17:28:59,577 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:28:59,577 - INFO - Prediction complete: total flow 4.34 veh/5min
+2025-03-25 17:28:59,592 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:28:59,592 - INFO - Prediction complete: total flow 6.82 veh/5min
+2025-03-25 17:28:59,592 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:28:59,607 - INFO - Prediction complete: total flow 8.53 veh/5min
+2025-03-25 17:28:59,607 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:28:59,622 - INFO - Prediction complete: total flow 8.88 veh/5min
+2025-03-25 17:28:59,622 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:28:59,637 - INFO - Prediction complete: total flow 9.24 veh/5min
+2025-03-25 17:28:59,637 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:28:59,637 - INFO - Prediction complete: total flow 33.19 veh/5min
+2025-03-25 17:28:59,652 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:28:59,652 - INFO - Prediction complete: total flow 37.45 veh/5min
+2025-03-25 17:28:59,652 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:28:59,667 - INFO - Prediction complete: total flow 41.71 veh/5min
+2025-03-25 17:28:59,667 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:28:59,682 - INFO - Prediction complete: total flow 45.98 veh/5min
+2025-03-25 17:28:59,682 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:28:59,697 - INFO - Prediction complete: total flow 42.44 veh/5min
+2025-03-25 17:28:59,697 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:28:59,712 - INFO - Prediction complete: total flow 46.74 veh/5min
+2025-03-25 17:28:59,712 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:28:59,712 - INFO - Prediction complete: total flow 51.05 veh/5min
+2025-03-25 17:28:59,727 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:28:59,735 - INFO - Prediction complete: total flow 55.35 veh/5min
+2025-03-25 17:28:59,735 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:28:59,750 - INFO - Prediction complete: total flow 6.58 veh/5min
+2025-03-25 17:28:59,750 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:28:59,750 - INFO - Prediction complete: total flow 6.52 veh/5min
+2025-03-25 17:28:59,750 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:28:59,765 - INFO - Prediction complete: total flow 6.46 veh/5min
+2025-03-25 17:28:59,765 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:28:59,780 - INFO - Prediction complete: total flow 6.41 veh/5min
+2025-03-25 17:28:59,780 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:28:59,795 - INFO - Prediction complete: total flow 7.88 veh/5min
+2025-03-25 17:28:59,795 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:28:59,795 - INFO - Prediction complete: total flow 7.23 veh/5min
+2025-03-25 17:28:59,810 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:28:59,810 - INFO - Prediction complete: total flow 6.57 veh/5min
+2025-03-25 17:28:59,810 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:28:59,825 - INFO - Prediction complete: total flow 5.91 veh/5min
+2025-03-25 17:28:59,825 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:28:59,840 - INFO - Prediction complete: total flow 7.70 veh/5min
+2025-03-25 17:28:59,840 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:28:59,855 - INFO - Prediction complete: total flow 8.01 veh/5min
+2025-03-25 17:28:59,855 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:28:59,855 - INFO - Prediction complete: total flow 8.31 veh/5min
+2025-03-25 17:28:59,870 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:28:59,870 - INFO - Prediction complete: total flow 12.54 veh/5min
+2025-03-25 17:28:59,885 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:28:59,885 - INFO - Prediction complete: total flow 7.08 veh/5min
+2025-03-25 17:28:59,885 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:28:59,900 - INFO - Prediction complete: total flow 6.61 veh/5min
+2025-03-25 17:28:59,900 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:28:59,915 - INFO - Prediction complete: total flow 6.14 veh/5min
+2025-03-25 17:28:59,915 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:28:59,930 - INFO - Prediction complete: total flow 5.67 veh/5min
+2025-03-25 17:28:59,930 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:28:59,930 - INFO - Prediction complete: total flow 39.53 veh/5min
+2025-03-25 17:28:59,930 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:28:59,945 - INFO - Prediction complete: total flow 46.50 veh/5min
+2025-03-25 17:28:59,945 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:28:59,960 - INFO - Prediction complete: total flow 53.48 veh/5min
+2025-03-25 17:28:59,965 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:28:59,968 - INFO - Prediction complete: total flow 60.46 veh/5min
+2025-03-25 17:28:59,982 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:28:59,982 - INFO - Prediction complete: total flow 4.93 veh/5min
+2025-03-25 17:28:59,982 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:28:59,997 - INFO - Prediction complete: total flow 5.16 veh/5min
+2025-03-25 17:28:59,997 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:29:00,012 - INFO - Prediction complete: total flow 5.39 veh/5min
+2025-03-25 17:29:00,012 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:29:00,027 - INFO - Prediction complete: total flow 9.56 veh/5min
+2025-03-25 17:29:00,027 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:29:00,042 - INFO - Prediction complete: total flow 11.82 veh/5min
+2025-03-25 17:29:00,042 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:29:00,057 - INFO - Prediction complete: total flow 12.50 veh/5min
+2025-03-25 17:29:00,057 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:29:00,057 - INFO - Prediction complete: total flow 13.19 veh/5min
+2025-03-25 17:29:00,072 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:29:00,087 - INFO - Prediction complete: total flow 13.87 veh/5min
+2025-03-25 17:29:00,087 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:29:00,087 - INFO - Prediction complete: total flow 21.51 veh/5min
+2025-03-25 17:29:00,087 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:29:00,102 - INFO - Prediction complete: total flow 24.16 veh/5min
+2025-03-25 17:29:00,102 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:29:00,117 - INFO - Prediction complete: total flow 26.80 veh/5min
+2025-03-25 17:29:00,117 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:29:00,132 - INFO - Prediction complete: total flow 32.30 veh/5min
+2025-03-25 17:29:00,132 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:29:00,132 - INFO - Prediction complete: total flow 6.91 veh/5min
+2025-03-25 17:29:00,147 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:29:00,147 - INFO - Prediction complete: total flow 6.38 veh/5min
+2025-03-25 17:29:00,147 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:29:00,162 - INFO - Prediction complete: total flow 5.85 veh/5min
+2025-03-25 17:29:00,169 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:29:00,170 - INFO - Prediction complete: total flow 5.32 veh/5min
+2025-03-25 17:29:00,185 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:29:00,185 - INFO - Prediction complete: total flow 5.75 veh/5min
+2025-03-25 17:29:00,185 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:29:00,200 - INFO - Prediction complete: total flow 5.49 veh/5min
+2025-03-25 17:29:00,200 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:29:00,200 - INFO - Prediction complete: total flow 5.22 veh/5min
+2025-03-25 17:29:00,215 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:29:00,230 - INFO - Prediction complete: total flow 4.95 veh/5min
+2025-03-25 17:29:00,230 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:29:00,230 - INFO - Prediction complete: total flow 15.75 veh/5min
+2025-03-25 17:29:00,230 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:29:00,245 - INFO - Prediction complete: total flow 21.11 veh/5min
+2025-03-25 17:29:00,245 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:29:00,260 - INFO - Prediction complete: total flow 24.49 veh/5min
+2025-03-25 17:29:00,260 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:29:00,275 - INFO - Prediction complete: total flow 27.87 veh/5min
+2025-03-25 17:29:00,275 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:29:00,290 - INFO - Prediction complete: total flow 3.83 veh/5min
+2025-03-25 17:29:00,290 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:29:00,290 - INFO - Prediction complete: total flow 3.80 veh/5min
+2025-03-25 17:29:00,305 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:29:00,305 - INFO - Prediction complete: total flow 3.76 veh/5min
+2025-03-25 17:29:00,320 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:29:00,335 - INFO - Prediction complete: total flow 3.72 veh/5min
+2025-03-25 17:29:00,335 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:29:00,335 - INFO - Prediction complete: total flow 7.96 veh/5min
+2025-03-25 17:29:00,335 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:29:00,350 - INFO - Prediction complete: total flow 7.32 veh/5min
+2025-03-25 17:29:00,350 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:29:00,368 - INFO - Prediction complete: total flow 6.68 veh/5min
+2025-03-25 17:29:00,369 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:29:00,384 - INFO - Prediction complete: total flow 6.03 veh/5min
+2025-03-25 17:29:00,384 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:29:00,384 - INFO - Prediction complete: total flow 8.34 veh/5min
+2025-03-25 17:29:00,384 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:29:00,399 - INFO - Prediction complete: total flow 7.82 veh/5min
+2025-03-25 17:29:00,399 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:29:00,414 - INFO - Prediction complete: total flow 7.30 veh/5min
+2025-03-25 17:29:00,414 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:29:00,429 - INFO - Prediction complete: total flow 6.77 veh/5min
+2025-03-25 17:29:00,429 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:29:00,429 - INFO - Prediction complete: total flow 5.18 veh/5min
+2025-03-25 17:29:00,444 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:29:00,444 - INFO - Prediction complete: total flow 5.03 veh/5min
+2025-03-25 17:29:00,444 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:29:00,459 - INFO - Prediction complete: total flow 4.87 veh/5min
+2025-03-25 17:29:00,459 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:29:00,474 - INFO - Prediction complete: total flow 4.71 veh/5min
+2025-03-25 17:29:00,474 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:29:00,492 - INFO - Prediction complete: total flow 41.41 veh/5min
+2025-03-25 17:29:00,494 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:29:00,494 - INFO - Prediction complete: total flow 44.82 veh/5min
+2025-03-25 17:29:00,494 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:29:00,509 - INFO - Prediction complete: total flow 35.99 veh/5min
+2025-03-25 17:29:00,509 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:29:00,524 - INFO - Prediction complete: total flow 36.95 veh/5min
+2025-03-25 17:29:00,524 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:29:00,539 - INFO - Prediction complete: total flow 3.28 veh/5min
+2025-03-25 17:29:00,539 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:29:00,539 - INFO - Prediction complete: total flow 3.26 veh/5min
+2025-03-25 17:29:00,554 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:29:00,554 - INFO - Prediction complete: total flow 3.25 veh/5min
+2025-03-25 17:29:00,554 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:29:00,569 - INFO - Prediction complete: total flow 3.90 veh/5min
+2025-03-25 17:29:00,584 - INFO - Predicting flow for segment 2: G002 -> G003, t+5min
+2025-03-25 17:29:00,584 - INFO - Prediction complete: total flow 41.70 veh/5min
+2025-03-25 17:29:00,584 - INFO - Predicting flow for segment 2: G002 -> G003, t+10min
+2025-03-25 17:29:00,599 - INFO - Prediction complete: total flow 46.42 veh/5min
+2025-03-25 17:29:00,599 - INFO - Predicting flow for segment 2: G002 -> G003, t+15min
+2025-03-25 17:29:00,614 - INFO - Prediction complete: total flow 51.14 veh/5min
+2025-03-25 17:29:00,614 - INFO - Predicting flow for segment 2: G002 -> G003, t+30min
+2025-03-25 17:29:00,629 - INFO - Prediction complete: total flow 51.61 veh/5min
+2025-03-25 17:29:00,629 - INFO - Validating segment 3: G003 -> G004
+2025-03-25 17:29:00,637 - INFO - Using random sample of 50 time points for validation
+2025-03-25 17:29:00,637 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:00,637 - INFO - Prediction complete: total flow 6.01 veh/5min
+2025-03-25 17:29:00,637 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:00,652 - INFO - Prediction complete: total flow 5.65 veh/5min
+2025-03-25 17:29:00,652 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:00,667 - INFO - Prediction complete: total flow 4.97 veh/5min
+2025-03-25 17:29:00,667 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:00,697 - INFO - Prediction complete: total flow 4.53 veh/5min
+2025-03-25 17:29:00,697 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:00,697 - INFO - Prediction complete: total flow 3.51 veh/5min
+2025-03-25 17:29:00,697 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:00,712 - INFO - Prediction complete: total flow 3.51 veh/5min
+2025-03-25 17:29:00,712 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:00,727 - INFO - Prediction complete: total flow 3.49 veh/5min
+2025-03-25 17:29:00,727 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:00,757 - INFO - Prediction complete: total flow 3.46 veh/5min
+2025-03-25 17:29:00,757 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:00,768 - INFO - Prediction complete: total flow 39.88 veh/5min
+2025-03-25 17:29:00,768 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:00,768 - INFO - Prediction complete: total flow 43.97 veh/5min
+2025-03-25 17:29:00,784 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:00,784 - INFO - Prediction complete: total flow 48.69 veh/5min
+2025-03-25 17:29:00,799 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:00,814 - INFO - Prediction complete: total flow 53.62 veh/5min
+2025-03-25 17:29:00,814 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:00,829 - INFO - Prediction complete: total flow 20.25 veh/5min
+2025-03-25 17:29:00,829 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:00,829 - INFO - Prediction complete: total flow 22.53 veh/5min
+2025-03-25 17:29:00,844 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:00,859 - INFO - Prediction complete: total flow 25.13 veh/5min
+2025-03-25 17:29:00,859 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:00,874 - INFO - Prediction complete: total flow 27.82 veh/5min
+2025-03-25 17:29:00,874 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:00,893 - INFO - Prediction complete: total flow 3.63 veh/5min
+2025-03-25 17:29:00,893 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:00,893 - INFO - Prediction complete: total flow 4.18 veh/5min
+2025-03-25 17:29:00,908 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:00,908 - INFO - Prediction complete: total flow 4.21 veh/5min
+2025-03-25 17:29:00,923 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:00,938 - INFO - Prediction complete: total flow 4.25 veh/5min
+2025-03-25 17:29:00,938 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:00,953 - INFO - Prediction complete: total flow 8.92 veh/5min
+2025-03-25 17:29:00,953 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:00,968 - INFO - Prediction complete: total flow 9.98 veh/5min
+2025-03-25 17:29:00,968 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:00,983 - INFO - Prediction complete: total flow 10.98 veh/5min
+2025-03-25 17:29:00,983 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:00,998 - INFO - Prediction complete: total flow 12.06 veh/5min
+2025-03-25 17:29:00,998 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:01,013 - INFO - Prediction complete: total flow 7.38 veh/5min
+2025-03-25 17:29:01,013 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:01,028 - INFO - Prediction complete: total flow 7.67 veh/5min
+2025-03-25 17:29:01,028 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:01,044 - INFO - Prediction complete: total flow 8.17 veh/5min
+2025-03-25 17:29:01,044 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:01,059 - INFO - Prediction complete: total flow 8.72 veh/5min
+2025-03-25 17:29:01,059 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:01,074 - INFO - Prediction complete: total flow 6.57 veh/5min
+2025-03-25 17:29:01,074 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:01,087 - INFO - Prediction complete: total flow 7.17 veh/5min
+2025-03-25 17:29:01,087 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:01,102 - INFO - Prediction complete: total flow 7.62 veh/5min
+2025-03-25 17:29:01,102 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:01,117 - INFO - Prediction complete: total flow 11.99 veh/5min
+2025-03-25 17:29:01,132 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:01,132 - INFO - Prediction complete: total flow 28.19 veh/5min
+2025-03-25 17:29:01,132 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:01,147 - INFO - Prediction complete: total flow 32.74 veh/5min
+2025-03-25 17:29:01,147 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:01,162 - INFO - Prediction complete: total flow 37.71 veh/5min
+2025-03-25 17:29:01,162 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:01,177 - INFO - Prediction complete: total flow 46.33 veh/5min
+2025-03-25 17:29:01,192 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:01,192 - INFO - Prediction complete: total flow 10.95 veh/5min
+2025-03-25 17:29:01,192 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:01,207 - INFO - Prediction complete: total flow 11.73 veh/5min
+2025-03-25 17:29:01,207 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:01,222 - INFO - Prediction complete: total flow 17.09 veh/5min
+2025-03-25 17:29:01,222 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:01,252 - INFO - Prediction complete: total flow 18.82 veh/5min
+2025-03-25 17:29:01,252 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:01,252 - INFO - Prediction complete: total flow 17.45 veh/5min
+2025-03-25 17:29:01,252 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:01,267 - INFO - Prediction complete: total flow 21.00 veh/5min
+2025-03-25 17:29:01,267 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:01,280 - INFO - Prediction complete: total flow 24.67 veh/5min
+2025-03-25 17:29:01,280 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:01,310 - INFO - Prediction complete: total flow 14.65 veh/5min
+2025-03-25 17:29:01,310 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:01,310 - INFO - Prediction complete: total flow 22.05 veh/5min
+2025-03-25 17:29:01,325 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:01,325 - INFO - Prediction complete: total flow 26.30 veh/5min
+2025-03-25 17:29:01,325 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:01,340 - INFO - Prediction complete: total flow 30.79 veh/5min
+2025-03-25 17:29:01,355 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:01,370 - INFO - Prediction complete: total flow 35.35 veh/5min
+2025-03-25 17:29:01,370 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:01,385 - INFO - Prediction complete: total flow 3.68 veh/5min
+2025-03-25 17:29:01,385 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:01,385 - INFO - Prediction complete: total flow 3.74 veh/5min
+2025-03-25 17:29:01,400 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:01,414 - INFO - Prediction complete: total flow 3.77 veh/5min
+2025-03-25 17:29:01,414 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:01,429 - INFO - Prediction complete: total flow 3.80 veh/5min
+2025-03-25 17:29:01,429 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:01,444 - INFO - Prediction complete: total flow 40.62 veh/5min
+2025-03-25 17:29:01,444 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:01,459 - INFO - Prediction complete: total flow 43.54 veh/5min
+2025-03-25 17:29:01,459 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:01,474 - INFO - Prediction complete: total flow 47.11 veh/5min
+2025-03-25 17:29:01,474 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:01,489 - INFO - Prediction complete: total flow 55.22 veh/5min
+2025-03-25 17:29:01,489 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:01,504 - INFO - Prediction complete: total flow 32.24 veh/5min
+2025-03-25 17:29:01,504 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:01,520 - INFO - Prediction complete: total flow 38.11 veh/5min
+2025-03-25 17:29:01,520 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:01,534 - INFO - Prediction complete: total flow 44.61 veh/5min
+2025-03-25 17:29:01,534 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:01,549 - INFO - Prediction complete: total flow 51.20 veh/5min
+2025-03-25 17:29:01,564 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:01,564 - INFO - Prediction complete: total flow 16.93 veh/5min
+2025-03-25 17:29:01,564 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:01,580 - INFO - Prediction complete: total flow 21.34 veh/5min
+2025-03-25 17:29:01,580 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:01,594 - INFO - Prediction complete: total flow 25.64 veh/5min
+2025-03-25 17:29:01,594 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:01,623 - INFO - Prediction complete: total flow 29.93 veh/5min
+2025-03-25 17:29:01,623 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:01,638 - INFO - Prediction complete: total flow 5.71 veh/5min
+2025-03-25 17:29:01,638 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:01,638 - INFO - Prediction complete: total flow 6.22 veh/5min
+2025-03-25 17:29:01,653 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:01,653 - INFO - Prediction complete: total flow 6.81 veh/5min
+2025-03-25 17:29:01,668 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:01,676 - INFO - Prediction complete: total flow 7.42 veh/5min
+2025-03-25 17:29:01,691 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:01,691 - INFO - Prediction complete: total flow 25.89 veh/5min
+2025-03-25 17:29:01,691 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:01,706 - INFO - Prediction complete: total flow 28.25 veh/5min
+2025-03-25 17:29:01,706 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:01,721 - INFO - Prediction complete: total flow 31.14 veh/5min
+2025-03-25 17:29:01,721 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:01,736 - INFO - Prediction complete: total flow 34.17 veh/5min
+2025-03-25 17:29:01,751 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:01,751 - INFO - Prediction complete: total flow 15.19 veh/5min
+2025-03-25 17:29:01,751 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:01,766 - INFO - Prediction complete: total flow 20.66 veh/5min
+2025-03-25 17:29:01,766 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:01,781 - INFO - Prediction complete: total flow 24.32 veh/5min
+2025-03-25 17:29:01,781 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:01,798 - INFO - Prediction complete: total flow 28.02 veh/5min
+2025-03-25 17:29:01,813 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:01,813 - INFO - Prediction complete: total flow 3.75 veh/5min
+2025-03-25 17:29:01,813 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:01,828 - INFO - Prediction complete: total flow 3.90 veh/5min
+2025-03-25 17:29:01,828 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:01,843 - INFO - Prediction complete: total flow 3.83 veh/5min
+2025-03-25 17:29:01,843 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:01,873 - INFO - Prediction complete: total flow 3.75 veh/5min
+2025-03-25 17:29:01,873 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:01,873 - INFO - Prediction complete: total flow 7.05 veh/5min
+2025-03-25 17:29:01,888 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:01,888 - INFO - Prediction complete: total flow 8.30 veh/5min
+2025-03-25 17:29:01,903 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:01,903 - INFO - Prediction complete: total flow 9.54 veh/5min
+2025-03-25 17:29:01,918 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:01,933 - INFO - Prediction complete: total flow 6.64 veh/5min
+2025-03-25 17:29:01,933 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:01,948 - INFO - Prediction complete: total flow 15.83 veh/5min
+2025-03-25 17:29:01,948 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:01,963 - INFO - Prediction complete: total flow 17.52 veh/5min
+2025-03-25 17:29:01,963 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:01,978 - INFO - Prediction complete: total flow 11.60 veh/5min
+2025-03-25 17:29:01,978 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:02,008 - INFO - Prediction complete: total flow 12.11 veh/5min
+2025-03-25 17:29:02,008 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:02,008 - INFO - Prediction complete: total flow 11.15 veh/5min
+2025-03-25 17:29:02,023 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:02,023 - INFO - Prediction complete: total flow 12.60 veh/5min
+2025-03-25 17:29:02,023 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:02,038 - INFO - Prediction complete: total flow 14.23 veh/5min
+2025-03-25 17:29:02,038 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:02,068 - INFO - Prediction complete: total flow 15.91 veh/5min
+2025-03-25 17:29:02,068 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:02,083 - INFO - Prediction complete: total flow 4.88 veh/5min
+2025-03-25 17:29:02,083 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:02,098 - INFO - Prediction complete: total flow 4.62 veh/5min
+2025-03-25 17:29:02,098 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:02,106 - INFO - Prediction complete: total flow 4.34 veh/5min
+2025-03-25 17:29:02,106 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:02,136 - INFO - Prediction complete: total flow 4.06 veh/5min
+2025-03-25 17:29:02,136 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:02,136 - INFO - Prediction complete: total flow 38.86 veh/5min
+2025-03-25 17:29:02,136 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:02,151 - INFO - Prediction complete: total flow 42.63 veh/5min
+2025-03-25 17:29:02,151 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:02,166 - INFO - Prediction complete: total flow 46.33 veh/5min
+2025-03-25 17:29:02,166 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:02,196 - INFO - Prediction complete: total flow 50.55 veh/5min
+2025-03-25 17:29:02,196 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:02,211 - INFO - Prediction complete: total flow 28.72 veh/5min
+2025-03-25 17:29:02,211 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:02,224 - INFO - Prediction complete: total flow 31.15 veh/5min
+2025-03-25 17:29:02,224 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:02,239 - INFO - Prediction complete: total flow 33.20 veh/5min
+2025-03-25 17:29:02,239 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:02,254 - INFO - Prediction complete: total flow 35.38 veh/5min
+2025-03-25 17:29:02,254 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:02,269 - INFO - Prediction complete: total flow 7.60 veh/5min
+2025-03-25 17:29:02,269 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:02,284 - INFO - Prediction complete: total flow 7.52 veh/5min
+2025-03-25 17:29:02,284 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:02,299 - INFO - Prediction complete: total flow 7.71 veh/5min
+2025-03-25 17:29:02,299 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:02,329 - INFO - Prediction complete: total flow 7.94 veh/5min
+2025-03-25 17:29:02,329 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:02,329 - INFO - Prediction complete: total flow 15.69 veh/5min
+2025-03-25 17:29:02,329 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:02,344 - INFO - Prediction complete: total flow 18.47 veh/5min
+2025-03-25 17:29:02,356 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:02,360 - INFO - Prediction complete: total flow 21.49 veh/5min
+2025-03-25 17:29:02,360 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:02,390 - INFO - Prediction complete: total flow 24.55 veh/5min
+2025-03-25 17:29:02,390 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:02,405 - INFO - Prediction complete: total flow 6.07 veh/5min
+2025-03-25 17:29:02,405 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:02,420 - INFO - Prediction complete: total flow 6.74 veh/5min
+2025-03-25 17:29:02,420 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:02,435 - INFO - Prediction complete: total flow 7.31 veh/5min
+2025-03-25 17:29:02,435 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:02,465 - INFO - Prediction complete: total flow 7.89 veh/5min
+2025-03-25 17:29:02,465 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:02,465 - INFO - Prediction complete: total flow 40.56 veh/5min
+2025-03-25 17:29:02,480 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:02,480 - INFO - Prediction complete: total flow 43.65 veh/5min
+2025-03-25 17:29:02,480 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:02,495 - INFO - Prediction complete: total flow 46.68 veh/5min
+2025-03-25 17:29:02,495 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:02,528 - INFO - Prediction complete: total flow 33.90 veh/5min
+2025-03-25 17:29:02,528 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:02,528 - INFO - Prediction complete: total flow 66.09 veh/5min
+2025-03-25 17:29:02,528 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:02,543 - INFO - Prediction complete: total flow 70.47 veh/5min
+2025-03-25 17:29:02,543 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:02,558 - INFO - Prediction complete: total flow 72.85 veh/5min
+2025-03-25 17:29:02,558 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:02,588 - INFO - Prediction complete: total flow 75.83 veh/5min
+2025-03-25 17:29:02,588 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:02,588 - INFO - Prediction complete: total flow 19.72 veh/5min
+2025-03-25 17:29:02,588 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:02,603 - INFO - Prediction complete: total flow 22.42 veh/5min
+2025-03-25 17:29:02,603 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:02,618 - INFO - Prediction complete: total flow 25.48 veh/5min
+2025-03-25 17:29:02,618 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:02,648 - INFO - Prediction complete: total flow 36.06 veh/5min
+2025-03-25 17:29:02,648 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:02,648 - INFO - Prediction complete: total flow 36.31 veh/5min
+2025-03-25 17:29:02,648 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:02,663 - INFO - Prediction complete: total flow 38.73 veh/5min
+2025-03-25 17:29:02,663 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:02,678 - INFO - Prediction complete: total flow 41.77 veh/5min
+2025-03-25 17:29:02,693 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:02,708 - INFO - Prediction complete: total flow 45.01 veh/5min
+2025-03-25 17:29:02,708 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:02,723 - INFO - Prediction complete: total flow 17.40 veh/5min
+2025-03-25 17:29:02,723 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:02,737 - INFO - Prediction complete: total flow 19.04 veh/5min
+2025-03-25 17:29:02,737 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:02,752 - INFO - Prediction complete: total flow 21.05 veh/5min
+2025-03-25 17:29:02,752 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:02,767 - INFO - Prediction complete: total flow 23.15 veh/5min
+2025-03-25 17:29:02,767 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:02,782 - INFO - Prediction complete: total flow 14.06 veh/5min
+2025-03-25 17:29:02,782 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:02,797 - INFO - Prediction complete: total flow 16.07 veh/5min
+2025-03-25 17:29:02,797 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:02,812 - INFO - Prediction complete: total flow 18.24 veh/5min
+2025-03-25 17:29:02,812 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:02,827 - INFO - Prediction complete: total flow 11.18 veh/5min
+2025-03-25 17:29:02,827 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:02,842 - INFO - Prediction complete: total flow 4.91 veh/5min
+2025-03-25 17:29:02,842 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:02,857 - INFO - Prediction complete: total flow 5.14 veh/5min
+2025-03-25 17:29:02,857 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:02,872 - INFO - Prediction complete: total flow 5.24 veh/5min
+2025-03-25 17:29:02,872 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:02,887 - INFO - Prediction complete: total flow 4.70 veh/5min
+2025-03-25 17:29:02,887 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:02,902 - INFO - Prediction complete: total flow 3.01 veh/5min
+2025-03-25 17:29:02,902 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:02,917 - INFO - Prediction complete: total flow 3.07 veh/5min
+2025-03-25 17:29:02,917 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:02,932 - INFO - Prediction complete: total flow 3.12 veh/5min
+2025-03-25 17:29:02,932 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:02,947 - INFO - Prediction complete: total flow 3.16 veh/5min
+2025-03-25 17:29:02,962 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:02,970 - INFO - Prediction complete: total flow 5.37 veh/5min
+2025-03-25 17:29:02,971 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:02,977 - INFO - Prediction complete: total flow 5.15 veh/5min
+2025-03-25 17:29:02,977 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:02,992 - INFO - Prediction complete: total flow 4.83 veh/5min
+2025-03-25 17:29:02,992 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:03,022 - INFO - Prediction complete: total flow 4.51 veh/5min
+2025-03-25 17:29:03,022 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:03,022 - INFO - Prediction complete: total flow 4.15 veh/5min
+2025-03-25 17:29:03,038 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:03,038 - INFO - Prediction complete: total flow 3.96 veh/5min
+2025-03-25 17:29:03,038 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:03,054 - INFO - Prediction complete: total flow 3.75 veh/5min
+2025-03-25 17:29:03,054 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:03,084 - INFO - Prediction complete: total flow 3.55 veh/5min
+2025-03-25 17:29:03,084 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:03,084 - INFO - Prediction complete: total flow 5.50 veh/5min
+2025-03-25 17:29:03,099 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:03,099 - INFO - Prediction complete: total flow 5.93 veh/5min
+2025-03-25 17:29:03,099 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:03,114 - INFO - Prediction complete: total flow 6.29 veh/5min
+2025-03-25 17:29:03,129 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:03,144 - INFO - Prediction complete: total flow 5.77 veh/5min
+2025-03-25 17:29:03,144 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:03,159 - INFO - Prediction complete: total flow 4.29 veh/5min
+2025-03-25 17:29:03,159 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:03,159 - INFO - Prediction complete: total flow 4.15 veh/5min
+2025-03-25 17:29:03,174 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:03,174 - INFO - Prediction complete: total flow 4.00 veh/5min
+2025-03-25 17:29:03,191 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:03,208 - INFO - Prediction complete: total flow 3.84 veh/5min
+2025-03-25 17:29:03,208 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:03,208 - INFO - Prediction complete: total flow 4.78 veh/5min
+2025-03-25 17:29:03,223 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:03,223 - INFO - Prediction complete: total flow 5.06 veh/5min
+2025-03-25 17:29:03,238 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:03,238 - INFO - Prediction complete: total flow 5.28 veh/5min
+2025-03-25 17:29:03,253 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:03,268 - INFO - Prediction complete: total flow 5.49 veh/5min
+2025-03-25 17:29:03,268 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:03,283 - INFO - Prediction complete: total flow 5.11 veh/5min
+2025-03-25 17:29:03,283 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:03,298 - INFO - Prediction complete: total flow 4.65 veh/5min
+2025-03-25 17:29:03,298 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:03,313 - INFO - Prediction complete: total flow 4.26 veh/5min
+2025-03-25 17:29:03,313 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:03,327 - INFO - Prediction complete: total flow 3.88 veh/5min
+2025-03-25 17:29:03,342 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:03,342 - INFO - Prediction complete: total flow 3.22 veh/5min
+2025-03-25 17:29:03,342 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:03,357 - INFO - Prediction complete: total flow 3.35 veh/5min
+2025-03-25 17:29:03,357 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:03,372 - INFO - Prediction complete: total flow 2.95 veh/5min
+2025-03-25 17:29:03,372 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:03,402 - INFO - Prediction complete: total flow 2.96 veh/5min
+2025-03-25 17:29:03,402 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:03,402 - INFO - Prediction complete: total flow 33.17 veh/5min
+2025-03-25 17:29:03,402 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:03,417 - INFO - Prediction complete: total flow 35.63 veh/5min
+2025-03-25 17:29:03,417 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:03,432 - INFO - Prediction complete: total flow 38.64 veh/5min
+2025-03-25 17:29:03,432 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:03,458 - INFO - Prediction complete: total flow 41.85 veh/5min
+2025-03-25 17:29:03,458 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:03,473 - INFO - Prediction complete: total flow 20.24 veh/5min
+2025-03-25 17:29:03,473 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:03,473 - INFO - Prediction complete: total flow 23.10 veh/5min
+2025-03-25 17:29:03,488 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:03,503 - INFO - Prediction complete: total flow 26.32 veh/5min
+2025-03-25 17:29:03,503 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:03,518 - INFO - Prediction complete: total flow 35.25 veh/5min
+2025-03-25 17:29:03,518 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:03,533 - INFO - Prediction complete: total flow 5.01 veh/5min
+2025-03-25 17:29:03,533 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:03,548 - INFO - Prediction complete: total flow 4.84 veh/5min
+2025-03-25 17:29:03,548 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:03,563 - INFO - Prediction complete: total flow 4.58 veh/5min
+2025-03-25 17:29:03,563 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:03,578 - INFO - Prediction complete: total flow 4.18 veh/5min
+2025-03-25 17:29:03,578 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:03,593 - INFO - Prediction complete: total flow 29.46 veh/5min
+2025-03-25 17:29:03,593 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:03,608 - INFO - Prediction complete: total flow 31.89 veh/5min
+2025-03-25 17:29:03,608 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:03,623 - INFO - Prediction complete: total flow 33.80 veh/5min
+2025-03-25 17:29:03,623 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:03,653 - INFO - Prediction complete: total flow 35.98 veh/5min
+2025-03-25 17:29:03,653 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:03,653 - INFO - Prediction complete: total flow 9.04 veh/5min
+2025-03-25 17:29:03,668 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:03,668 - INFO - Prediction complete: total flow 7.20 veh/5min
+2025-03-25 17:29:03,668 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:03,688 - INFO - Prediction complete: total flow 7.25 veh/5min
+2025-03-25 17:29:03,688 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:03,703 - INFO - Prediction complete: total flow 7.31 veh/5min
+2025-03-25 17:29:03,718 - INFO - Predicting flow for segment 3: G003 -> G004, t+5min
+2025-03-25 17:29:03,718 - INFO - Prediction complete: total flow 18.61 veh/5min
+2025-03-25 17:29:03,718 - INFO - Predicting flow for segment 3: G003 -> G004, t+10min
+2025-03-25 17:29:03,733 - INFO - Prediction complete: total flow 20.80 veh/5min
+2025-03-25 17:29:03,733 - INFO - Predicting flow for segment 3: G003 -> G004, t+15min
+2025-03-25 17:29:03,748 - INFO - Prediction complete: total flow 23.35 veh/5min
+2025-03-25 17:29:03,748 - INFO - Predicting flow for segment 3: G003 -> G004, t+30min
+2025-03-25 17:29:03,763 - INFO - Prediction complete: total flow 25.98 veh/5min
+2025-03-25 17:29:03,778 - INFO - Validating segment 4: G004 -> G005
+2025-03-25 17:29:03,778 - INFO - Using random sample of 50 time points for validation
+2025-03-25 17:29:03,778 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:03,778 - INFO - Prediction complete: total flow 17.55 veh/5min
+2025-03-25 17:29:03,778 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:03,793 - INFO - Prediction complete: total flow 19.94 veh/5min
+2025-03-25 17:29:03,808 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:03,823 - INFO - Prediction complete: total flow 22.51 veh/5min
+2025-03-25 17:29:03,823 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:03,853 - INFO - Prediction complete: total flow 25.68 veh/5min
+2025-03-25 17:29:03,853 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:03,868 - INFO - Prediction complete: total flow 27.34 veh/5min
+2025-03-25 17:29:03,868 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:03,884 - INFO - Prediction complete: total flow 37.11 veh/5min
+2025-03-25 17:29:03,890 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:03,905 - INFO - Prediction complete: total flow 40.74 veh/5min
+2025-03-25 17:29:03,905 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:03,935 - INFO - Prediction complete: total flow 45.70 veh/5min
+2025-03-25 17:29:03,935 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:03,950 - INFO - Prediction complete: total flow 11.71 veh/5min
+2025-03-25 17:29:03,950 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:03,966 - INFO - Prediction complete: total flow 13.25 veh/5min
+2025-03-25 17:29:03,966 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:03,980 - INFO - Prediction complete: total flow 14.70 veh/5min
+2025-03-25 17:29:03,995 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:04,025 - INFO - Prediction complete: total flow 16.56 veh/5min
+2025-03-25 17:29:04,025 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:04,025 - INFO - Prediction complete: total flow 5.39 veh/5min
+2025-03-25 17:29:04,041 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:04,041 - INFO - Prediction complete: total flow 5.29 veh/5min
+2025-03-25 17:29:04,056 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:04,071 - INFO - Prediction complete: total flow 4.61 veh/5min
+2025-03-25 17:29:04,071 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:04,101 - INFO - Prediction complete: total flow 4.39 veh/5min
+2025-03-25 17:29:04,101 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:04,116 - INFO - Prediction complete: total flow 36.91 veh/5min
+2025-03-25 17:29:04,116 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:04,131 - INFO - Prediction complete: total flow 40.15 veh/5min
+2025-03-25 17:29:04,131 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:04,155 - INFO - Prediction complete: total flow 43.65 veh/5min
+2025-03-25 17:29:04,155 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:04,186 - INFO - Prediction complete: total flow 48.69 veh/5min
+2025-03-25 17:29:04,186 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:04,201 - INFO - Prediction complete: total flow 20.13 veh/5min
+2025-03-25 17:29:04,201 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:04,216 - INFO - Prediction complete: total flow 22.70 veh/5min
+2025-03-25 17:29:04,216 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:04,230 - INFO - Prediction complete: total flow 25.48 veh/5min
+2025-03-25 17:29:04,230 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:04,272 - INFO - Prediction complete: total flow 28.98 veh/5min
+2025-03-25 17:29:04,276 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:04,277 - INFO - Prediction complete: total flow 10.20 veh/5min
+2025-03-25 17:29:04,277 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:04,292 - INFO - Prediction complete: total flow 11.25 veh/5min
+2025-03-25 17:29:04,292 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:04,307 - INFO - Prediction complete: total flow 12.51 veh/5min
+2025-03-25 17:29:04,322 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:04,352 - INFO - Prediction complete: total flow 14.03 veh/5min
+2025-03-25 17:29:04,352 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:04,352 - INFO - Prediction complete: total flow 6.06 veh/5min
+2025-03-25 17:29:04,367 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:04,367 - INFO - Prediction complete: total flow 5.70 veh/5min
+2025-03-25 17:29:04,382 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:04,397 - INFO - Prediction complete: total flow 5.35 veh/5min
+2025-03-25 17:29:04,397 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:04,427 - INFO - Prediction complete: total flow 4.99 veh/5min
+2025-03-25 17:29:04,427 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:04,442 - INFO - Prediction complete: total flow 7.98 veh/5min
+2025-03-25 17:29:04,442 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:04,457 - INFO - Prediction complete: total flow 8.74 veh/5min
+2025-03-25 17:29:04,457 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:04,472 - INFO - Prediction complete: total flow 9.67 veh/5min
+2025-03-25 17:29:04,472 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:04,517 - INFO - Prediction complete: total flow 14.07 veh/5min
+2025-03-25 17:29:04,517 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:04,517 - INFO - Prediction complete: total flow 7.60 veh/5min
+2025-03-25 17:29:04,532 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:04,547 - INFO - Prediction complete: total flow 7.37 veh/5min
+2025-03-25 17:29:04,547 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:04,562 - INFO - Prediction complete: total flow 7.44 veh/5min
+2025-03-25 17:29:04,562 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:04,590 - INFO - Prediction complete: total flow 11.83 veh/5min
+2025-03-25 17:29:04,590 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:04,613 - INFO - Prediction complete: total flow 4.66 veh/5min
+2025-03-25 17:29:04,615 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:04,615 - INFO - Prediction complete: total flow 4.22 veh/5min
+2025-03-25 17:29:04,631 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:04,646 - INFO - Prediction complete: total flow 3.90 veh/5min
+2025-03-25 17:29:04,646 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:04,676 - INFO - Prediction complete: total flow 3.59 veh/5min
+2025-03-25 17:29:04,676 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:04,691 - INFO - Prediction complete: total flow 4.96 veh/5min
+2025-03-25 17:29:04,691 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:04,706 - INFO - Prediction complete: total flow 5.26 veh/5min
+2025-03-25 17:29:04,706 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:04,721 - INFO - Prediction complete: total flow 5.56 veh/5min
+2025-03-25 17:29:04,721 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:04,751 - INFO - Prediction complete: total flow 5.85 veh/5min
+2025-03-25 17:29:04,751 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:04,766 - INFO - Prediction complete: total flow 8.34 veh/5min
+2025-03-25 17:29:04,766 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:04,781 - INFO - Prediction complete: total flow 9.40 veh/5min
+2025-03-25 17:29:04,781 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:04,807 - INFO - Prediction complete: total flow 10.46 veh/5min
+2025-03-25 17:29:04,807 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:04,837 - INFO - Prediction complete: total flow 11.53 veh/5min
+2025-03-25 17:29:04,837 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:04,852 - INFO - Prediction complete: total flow 6.03 veh/5min
+2025-03-25 17:29:04,852 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:04,867 - INFO - Prediction complete: total flow 5.66 veh/5min
+2025-03-25 17:29:04,867 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:04,882 - INFO - Prediction complete: total flow 5.29 veh/5min
+2025-03-25 17:29:04,882 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:04,912 - INFO - Prediction complete: total flow 4.93 veh/5min
+2025-03-25 17:29:04,912 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:04,927 - INFO - Prediction complete: total flow 0.00 veh/5min
+2025-03-25 17:29:04,927 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:04,942 - INFO - Prediction complete: total flow 0.00 veh/5min
+2025-03-25 17:29:04,942 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:04,957 - INFO - Prediction complete: total flow 0.00 veh/5min
+2025-03-25 17:29:04,957 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:04,983 - INFO - Prediction complete: total flow 0.00 veh/5min
+2025-03-25 17:29:04,983 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:04,998 - INFO - Prediction complete: total flow 4.90 veh/5min
+2025-03-25 17:29:04,998 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:05,013 - INFO - Prediction complete: total flow 4.64 veh/5min
+2025-03-25 17:29:05,013 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:05,028 - INFO - Prediction complete: total flow 4.00 veh/5min
+2025-03-25 17:29:05,028 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:05,058 - INFO - Prediction complete: total flow 3.66 veh/5min
+2025-03-25 17:29:05,073 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:05,088 - INFO - Prediction complete: total flow 3.10 veh/5min
+2025-03-25 17:29:05,088 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:05,109 - INFO - Prediction complete: total flow 3.02 veh/5min
+2025-03-25 17:29:05,111 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:05,128 - INFO - Prediction complete: total flow 2.93 veh/5min
+2025-03-25 17:29:05,131 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:05,155 - INFO - Prediction complete: total flow 3.19 veh/5min
+2025-03-25 17:29:05,155 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:05,170 - INFO - Prediction complete: total flow 6.13 veh/5min
+2025-03-25 17:29:05,170 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:05,185 - INFO - Prediction complete: total flow 6.14 veh/5min
+2025-03-25 17:29:05,185 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:05,201 - INFO - Prediction complete: total flow 6.14 veh/5min
+2025-03-25 17:29:05,201 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:05,239 - INFO - Prediction complete: total flow 6.15 veh/5min
+2025-03-25 17:29:05,239 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:05,239 - INFO - Prediction complete: total flow 5.74 veh/5min
+2025-03-25 17:29:05,254 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:05,269 - INFO - Prediction complete: total flow 5.28 veh/5min
+2025-03-25 17:29:05,269 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:05,286 - INFO - Prediction complete: total flow 4.82 veh/5min
+2025-03-25 17:29:05,291 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:05,306 - INFO - Prediction complete: total flow 4.36 veh/5min
+2025-03-25 17:29:05,321 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:05,321 - INFO - Prediction complete: total flow 3.91 veh/5min
+2025-03-25 17:29:05,321 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:05,336 - INFO - Prediction complete: total flow 3.94 veh/5min
+2025-03-25 17:29:05,336 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:05,366 - INFO - Prediction complete: total flow 3.98 veh/5min
+2025-03-25 17:29:05,366 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:05,396 - INFO - Prediction complete: total flow 4.01 veh/5min
+2025-03-25 17:29:05,396 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:05,411 - INFO - Prediction complete: total flow 4.42 veh/5min
+2025-03-25 17:29:05,411 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:05,426 - INFO - Prediction complete: total flow 4.67 veh/5min
+2025-03-25 17:29:05,426 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:05,454 - INFO - Prediction complete: total flow 4.91 veh/5min
+2025-03-25 17:29:05,454 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:05,484 - INFO - Prediction complete: total flow 4.91 veh/5min
+2025-03-25 17:29:05,484 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:05,499 - INFO - Prediction complete: total flow 31.39 veh/5min
+2025-03-25 17:29:05,499 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:05,514 - INFO - Prediction complete: total flow 37.13 veh/5min
+2025-03-25 17:29:05,514 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:05,529 - INFO - Prediction complete: total flow 42.95 veh/5min
+2025-03-25 17:29:05,529 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:05,559 - INFO - Prediction complete: total flow 49.95 veh/5min
+2025-03-25 17:29:05,574 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:05,574 - INFO - Prediction complete: total flow 13.34 veh/5min
+2025-03-25 17:29:05,574 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:05,589 - INFO - Prediction complete: total flow 15.42 veh/5min
+2025-03-25 17:29:05,589 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:05,619 - INFO - Prediction complete: total flow 17.41 veh/5min
+2025-03-25 17:29:05,624 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:05,641 - INFO - Prediction complete: total flow 19.81 veh/5min
+2025-03-25 17:29:05,656 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:05,656 - INFO - Prediction complete: total flow 29.54 veh/5min
+2025-03-25 17:29:05,656 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:05,671 - INFO - Prediction complete: total flow 29.88 veh/5min
+2025-03-25 17:29:05,671 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:05,701 - INFO - Prediction complete: total flow 29.45 veh/5min
+2025-03-25 17:29:05,701 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:05,731 - INFO - Prediction complete: total flow 17.43 veh/5min
+2025-03-25 17:29:05,731 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:05,753 - INFO - Prediction complete: total flow 24.59 veh/5min
+2025-03-25 17:29:05,756 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:05,771 - INFO - Prediction complete: total flow 25.06 veh/5min
+2025-03-25 17:29:05,774 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:05,792 - INFO - Prediction complete: total flow 25.77 veh/5min
+2025-03-25 17:29:05,794 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:05,810 - INFO - Prediction complete: total flow 27.80 veh/5min
+2025-03-25 17:29:05,825 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:05,825 - INFO - Prediction complete: total flow 6.25 veh/5min
+2025-03-25 17:29:05,825 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:05,840 - INFO - Prediction complete: total flow 6.39 veh/5min
+2025-03-25 17:29:05,855 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:05,870 - INFO - Prediction complete: total flow 6.54 veh/5min
+2025-03-25 17:29:05,870 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:05,900 - INFO - Prediction complete: total flow 4.47 veh/5min
+2025-03-25 17:29:05,900 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:05,915 - INFO - Prediction complete: total flow 9.97 veh/5min
+2025-03-25 17:29:05,915 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:05,930 - INFO - Prediction complete: total flow 11.40 veh/5min
+2025-03-25 17:29:05,930 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:05,946 - INFO - Prediction complete: total flow 16.78 veh/5min
+2025-03-25 17:29:05,961 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:05,991 - INFO - Prediction complete: total flow 19.02 veh/5min
+2025-03-25 17:29:05,991 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:06,006 - INFO - Prediction complete: total flow 5.67 veh/5min
+2025-03-25 17:29:06,006 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:06,021 - INFO - Prediction complete: total flow 5.29 veh/5min
+2025-03-25 17:29:06,021 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:06,036 - INFO - Prediction complete: total flow 4.92 veh/5min
+2025-03-25 17:29:06,036 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:06,064 - INFO - Prediction complete: total flow 4.54 veh/5min
+2025-03-25 17:29:06,079 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:06,079 - INFO - Prediction complete: total flow 11.38 veh/5min
+2025-03-25 17:29:06,079 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:06,094 - INFO - Prediction complete: total flow 13.82 veh/5min
+2025-03-25 17:29:06,109 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:06,124 - INFO - Prediction complete: total flow 16.26 veh/5min
+2025-03-25 17:29:06,124 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:06,154 - INFO - Prediction complete: total flow 18.70 veh/5min
+2025-03-25 17:29:06,154 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:06,169 - INFO - Prediction complete: total flow 62.79 veh/5min
+2025-03-25 17:29:06,169 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:06,184 - INFO - Prediction complete: total flow 65.37 veh/5min
+2025-03-25 17:29:06,184 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:06,194 - INFO - Prediction complete: total flow 67.89 veh/5min
+2025-03-25 17:29:06,209 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:06,239 - INFO - Prediction complete: total flow 73.37 veh/5min
+2025-03-25 17:29:06,239 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:06,239 - INFO - Prediction complete: total flow 31.67 veh/5min
+2025-03-25 17:29:06,254 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:06,254 - INFO - Prediction complete: total flow 35.96 veh/5min
+2025-03-25 17:29:06,269 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:06,284 - INFO - Prediction complete: total flow 39.64 veh/5min
+2025-03-25 17:29:06,284 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:06,314 - INFO - Prediction complete: total flow 45.25 veh/5min
+2025-03-25 17:29:06,314 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:06,329 - INFO - Prediction complete: total flow 36.25 veh/5min
+2025-03-25 17:29:06,329 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:06,344 - INFO - Prediction complete: total flow 39.20 veh/5min
+2025-03-25 17:29:06,344 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:06,359 - INFO - Prediction complete: total flow 42.45 veh/5min
+2025-03-25 17:29:06,359 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:06,404 - INFO - Prediction complete: total flow 47.29 veh/5min
+2025-03-25 17:29:06,404 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:06,404 - INFO - Prediction complete: total flow 4.24 veh/5min
+2025-03-25 17:29:06,419 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:06,419 - INFO - Prediction complete: total flow 4.06 veh/5min
+2025-03-25 17:29:06,434 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:06,446 - INFO - Prediction complete: total flow 3.89 veh/5min
+2025-03-25 17:29:06,446 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:06,476 - INFO - Prediction complete: total flow 3.72 veh/5min
+2025-03-25 17:29:06,476 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:06,491 - INFO - Prediction complete: total flow 7.24 veh/5min
+2025-03-25 17:29:06,491 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:06,506 - INFO - Prediction complete: total flow 7.79 veh/5min
+2025-03-25 17:29:06,506 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:06,521 - INFO - Prediction complete: total flow 8.34 veh/5min
+2025-03-25 17:29:06,521 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:06,551 - INFO - Prediction complete: total flow 5.90 veh/5min
+2025-03-25 17:29:06,551 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:06,566 - INFO - Prediction complete: total flow 3.39 veh/5min
+2025-03-25 17:29:06,566 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:06,582 - INFO - Prediction complete: total flow 3.47 veh/5min
+2025-03-25 17:29:06,582 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:06,596 - INFO - Prediction complete: total flow 3.54 veh/5min
+2025-03-25 17:29:06,596 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:06,640 - INFO - Prediction complete: total flow 3.62 veh/5min
+2025-03-25 17:29:06,640 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:06,640 - INFO - Prediction complete: total flow 24.88 veh/5min
+2025-03-25 17:29:06,655 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:06,655 - INFO - Prediction complete: total flow 26.90 veh/5min
+2025-03-25 17:29:06,670 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:06,685 - INFO - Prediction complete: total flow 29.17 veh/5min
+2025-03-25 17:29:06,685 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:06,715 - INFO - Prediction complete: total flow 32.50 veh/5min
+2025-03-25 17:29:06,715 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:06,730 - INFO - Prediction complete: total flow 8.80 veh/5min
+2025-03-25 17:29:06,730 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:06,745 - INFO - Prediction complete: total flow 9.64 veh/5min
+2025-03-25 17:29:06,745 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:06,760 - INFO - Prediction complete: total flow 10.41 veh/5min
+2025-03-25 17:29:06,760 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:06,790 - INFO - Prediction complete: total flow 17.13 veh/5min
+2025-03-25 17:29:06,790 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:06,805 - INFO - Prediction complete: total flow 20.08 veh/5min
+2025-03-25 17:29:06,805 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:06,820 - INFO - Prediction complete: total flow 21.04 veh/5min
+2025-03-25 17:29:06,820 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:06,850 - INFO - Prediction complete: total flow 22.23 veh/5min
+2025-03-25 17:29:06,850 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:06,872 - INFO - Prediction complete: total flow 23.24 veh/5min
+2025-03-25 17:29:06,887 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:06,887 - INFO - Prediction complete: total flow 10.31 veh/5min
+2025-03-25 17:29:06,887 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:06,902 - INFO - Prediction complete: total flow 10.83 veh/5min
+2025-03-25 17:29:06,917 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:06,932 - INFO - Prediction complete: total flow 15.44 veh/5min
+2025-03-25 17:29:06,932 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:06,962 - INFO - Prediction complete: total flow 17.19 veh/5min
+2025-03-25 17:29:06,962 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:06,977 - INFO - Prediction complete: total flow 2.65 veh/5min
+2025-03-25 17:29:06,982 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:06,982 - INFO - Prediction complete: total flow 2.74 veh/5min
+2025-03-25 17:29:06,997 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:07,013 - INFO - Prediction complete: total flow 2.83 veh/5min
+2025-03-25 17:29:07,013 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:07,043 - INFO - Prediction complete: total flow 2.92 veh/5min
+2025-03-25 17:29:07,050 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:07,051 - INFO - Prediction complete: total flow 33.85 veh/5min
+2025-03-25 17:29:07,060 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:07,075 - INFO - Prediction complete: total flow 36.90 veh/5min
+2025-03-25 17:29:07,075 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:07,090 - INFO - Prediction complete: total flow 39.99 veh/5min
+2025-03-25 17:29:07,090 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:07,120 - INFO - Prediction complete: total flow 45.17 veh/5min
+2025-03-25 17:29:07,120 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:07,135 - INFO - Prediction complete: total flow 27.06 veh/5min
+2025-03-25 17:29:07,135 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:07,150 - INFO - Prediction complete: total flow 31.49 veh/5min
+2025-03-25 17:29:07,150 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:07,176 - INFO - Prediction complete: total flow 33.22 veh/5min
+2025-03-25 17:29:07,176 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:07,206 - INFO - Prediction complete: total flow 36.40 veh/5min
+2025-03-25 17:29:07,206 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:07,221 - INFO - Prediction complete: total flow 3.69 veh/5min
+2025-03-25 17:29:07,221 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:07,236 - INFO - Prediction complete: total flow 3.50 veh/5min
+2025-03-25 17:29:07,236 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:07,251 - INFO - Prediction complete: total flow 3.30 veh/5min
+2025-03-25 17:29:07,251 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:07,281 - INFO - Prediction complete: total flow 3.11 veh/5min
+2025-03-25 17:29:07,296 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:07,300 - INFO - Prediction complete: total flow 31.39 veh/5min
+2025-03-25 17:29:07,300 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:07,315 - INFO - Prediction complete: total flow 34.70 veh/5min
+2025-03-25 17:29:07,315 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:07,330 - INFO - Prediction complete: total flow 37.34 veh/5min
+2025-03-25 17:29:07,330 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:07,375 - INFO - Prediction complete: total flow 30.93 veh/5min
+2025-03-25 17:29:07,375 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:07,375 - INFO - Prediction complete: total flow 43.69 veh/5min
+2025-03-25 17:29:07,375 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:07,390 - INFO - Prediction complete: total flow 45.57 veh/5min
+2025-03-25 17:29:07,405 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:07,420 - INFO - Prediction complete: total flow 47.59 veh/5min
+2025-03-25 17:29:07,420 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:07,450 - INFO - Prediction complete: total flow 56.57 veh/5min
+2025-03-25 17:29:07,458 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:07,462 - INFO - Prediction complete: total flow 53.59 veh/5min
+2025-03-25 17:29:07,462 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:07,477 - INFO - Prediction complete: total flow 53.81 veh/5min
+2025-03-25 17:29:07,477 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:07,492 - INFO - Prediction complete: total flow 53.97 veh/5min
+2025-03-25 17:29:07,507 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:07,537 - INFO - Prediction complete: total flow 56.92 veh/5min
+2025-03-25 17:29:07,537 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:07,537 - INFO - Prediction complete: total flow 5.69 veh/5min
+2025-03-25 17:29:07,552 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:07,552 - INFO - Prediction complete: total flow 6.27 veh/5min
+2025-03-25 17:29:07,567 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:07,580 - INFO - Prediction complete: total flow 6.86 veh/5min
+2025-03-25 17:29:07,580 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:07,610 - INFO - Prediction complete: total flow 7.44 veh/5min
+2025-03-25 17:29:07,610 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:07,625 - INFO - Prediction complete: total flow 26.97 veh/5min
+2025-03-25 17:29:07,625 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:07,640 - INFO - Prediction complete: total flow 27.65 veh/5min
+2025-03-25 17:29:07,640 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:07,655 - INFO - Prediction complete: total flow 34.83 veh/5min
+2025-03-25 17:29:07,655 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:07,685 - INFO - Prediction complete: total flow 38.45 veh/5min
+2025-03-25 17:29:07,700 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:07,700 - INFO - Prediction complete: total flow 30.06 veh/5min
+2025-03-25 17:29:07,700 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:07,715 - INFO - Prediction complete: total flow 28.89 veh/5min
+2025-03-25 17:29:07,715 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:07,745 - INFO - Prediction complete: total flow 27.91 veh/5min
+2025-03-25 17:29:07,745 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:07,778 - INFO - Prediction complete: total flow 28.82 veh/5min
+2025-03-25 17:29:07,778 - INFO - Predicting flow for segment 4: G004 -> G005, t+5min
+2025-03-25 17:29:07,793 - INFO - Prediction complete: total flow 5.36 veh/5min
+2025-03-25 17:29:07,793 - INFO - Predicting flow for segment 4: G004 -> G005, t+10min
+2025-03-25 17:29:07,808 - INFO - Prediction complete: total flow 5.25 veh/5min
+2025-03-25 17:29:07,823 - INFO - Predicting flow for segment 4: G004 -> G005, t+15min
+2025-03-25 17:29:07,838 - INFO - Prediction complete: total flow 6.12 veh/5min
+2025-03-25 17:29:07,838 - INFO - Predicting flow for segment 4: G004 -> G005, t+30min
+2025-03-25 17:29:07,868 - INFO - Prediction complete: total flow 6.20 veh/5min
+2025-03-25 17:29:07,898 - INFO - Validation results saved to: ./enctm_results\validation_results.csv
+2025-03-25 17:29:07,898 - INFO - Total validation records: 4776
+2025-03-25 17:29:07,898 - INFO - Calculating Enhanced CTM model performance metrics:
+2025-03-25 17:29:07,898 - INFO - 
+Performance metrics by prediction horizon:
+2025-03-25 17:29:07,898 - INFO - 5-minute prediction: samples=1194, MAE=2.23, RMSE=7.14, MAPE=65.79%, R^2=0.6840
+2025-03-25 17:29:07,913 - INFO - 10-minute prediction: samples=1194, MAE=2.03, RMSE=6.46, MAPE=60.69%, R^2=0.7268
+2025-03-25 17:29:07,913 - INFO - 15-minute prediction: samples=1194, MAE=2.11, RMSE=7.05, MAPE=56.94%, R^2=0.7217
+2025-03-25 17:29:07,913 - INFO - 30-minute prediction: samples=1194, MAE=1.93, RMSE=5.88, MAPE=54.53%, R^2=0.7886
+2025-03-25 17:29:07,913 - INFO - 
+Performance metrics by vehicle type:
+2025-03-25 17:29:07,913 - INFO - Vehicle type B1: samples=796, MAE=8.85, RMSE=16.01, MAPE=68.98%, R^2=0.6102
+2025-03-25 17:29:07,913 - INFO - Vehicle type B2: samples=796, MAE=0.06, RMSE=0.23, MAPE=92.38%, R^2=0.0184
+2025-03-25 17:29:07,913 - INFO - Vehicle type B3: samples=796, MAE=0.15, RMSE=0.39, MAPE=82.60%, R^2=0.0634
+2025-03-25 17:29:07,913 - INFO - Vehicle type T1: samples=796, MAE=1.14, RMSE=1.66, MAPE=52.39%, R^2=0.1874
+2025-03-25 17:29:07,913 - INFO - Vehicle type T2: samples=796, MAE=1.58, RMSE=2.28, MAPE=51.62%, R^2=0.1733
+2025-03-25 17:29:07,928 - INFO - Vehicle type T3: samples=796, MAE=0.67, RMSE=0.99, MAPE=56.57%, R^2=0.1034
+2025-03-25 17:29:07,928 - INFO - 
+Overall performance metrics (averaged by time horizon):
+2025-03-25 17:29:07,928 - INFO - Samples=4776, MAE=2.075, RMSE=6.632, MAPE=59.48%, R^2=0.7303
+2025-03-25 17:29:07,928 - INFO - Overall metrics saved to 'overall_metrics.csv'
+2025-03-25 17:29:07,928 - INFO - Training ML models on validation data...
+2025-03-25 17:29:22,712 - INFO - ML models trained successfully on 4776 samples
