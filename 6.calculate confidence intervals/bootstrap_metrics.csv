@@ -1,0 +1,6 @@
+model,MAE_bootstrap,MAE_ci_bootstrap,RMSE_bootstrap,RMSE_ci_bootstrap,MAPE_bootstrap,MAPE_ci_bootstrap
+LWR,2.855 ,0.227 ,7.376 ,0.639 ,142.29 ,12.97 
+CTM,2.571 ,0.233 ,7.452 ,0.752 ,73.30 ,3.08 
+METANET,2.277 ,0.139 ,4.784 ,0.319 ,157.85 ,13.46 
+PI-LWR,1.722 ,0.108 ,3.778 ,0.295 ,79.56 ,6.04 
+ML-CTM,2.074 ,0.178 ,6.649 ,0.727 ,59.52 ,2.71 
